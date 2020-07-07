@@ -336,11 +336,11 @@ def Aggregation_Min_Max_and_Everything_in_Between():
 
 def  What_Is_the_Average_Height_of_US_Presidents():  # Exercise example
 
-    # df = pd.read_csv('president_heights.csv.txt')
+    df = pd.read_csv('president_heights.csv.txt')
     # print(df)
 
     # If the file is in another location:
-    df = pd.read_csv(r'C:\Users\rodho\OneDrive\Documents\Projects\venv\Python_Data_Science_Handbook/president_heights.csv.txt')
+    # df = pd.read_csv(r'C:\Users\rodho\OneDrive\Documents\Projects\venv\Python_Data_Science_Handbook/president_heights.csv.txt')
     # print(df)
 
     df.set_index("order", inplace=True)
