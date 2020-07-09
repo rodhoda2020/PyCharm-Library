@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import matplotlib as plot
 import matplotlib.pyplot as plt
 import seaborn; seaborn.set()
 
@@ -545,6 +544,22 @@ def  What_Is_the_Average_Height_of_US_Presidents():  # Exercise example
     plt.ylabel('number');
     plt.show()
 
+def Computation_on_Arrays_Broadcasting():
+
+    # Another means of vectorization operations is to use NumPy's broadcasting
+    # functionality. Broadcasting is simply a set of rules of applying binary ufuncs
+    # (addition, subtraction, multiplication, etc.) on arrays of different sizes
+
+    # Binary operations are performed on an element-by-element basis:
+    a = np.array([0, 1, 2])
+    b = np.array([3, 4, 5])
+
+    print(a+b)
+
+    # Broadcasting allows these types of binary operations on arrays of different sizes
+
+    # Adding a scalar (zero-dimensional array) to an array:
+    print(a+5)
 
 if __name__ == "__main__":
     # Fixed_Type_Array_in_Python()
@@ -558,6 +573,7 @@ if __name__ == "__main__":
     # Array_Concatenation_and_Splitting()
     # Computation_on_NumPy_Arrays_Universal_Functions()
     # Advanced_Ufunc_Features()
-    Aggregation_Min_Max_and_Everything_in_Between()
+    # Aggregation_Min_Max_and_Everything_in_Between()
     # Aggregation_Min_Max_and_Everything_in_Between()
     # What_Is_the_Average_Height_of_US_Presidents()
+    Computation_on_Arrays_Broadcasting()
