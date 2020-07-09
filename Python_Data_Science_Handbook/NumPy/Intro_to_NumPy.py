@@ -326,13 +326,192 @@ def Array_Concatenation_and_Splitting():
     # np.dsplit will split arrays along the third axis.
 
 def Computation_on_NumPy_Arrays_Universal_Functions():
-    print("This must be implemented!")
+
+    # The relative sluggishness of Python generally manifests itself in situations
+    # where many small operations are being repeated - for instance, looping over
+    # arrays to operations on each element
+
+    # A straightforward approach might look like this
+    np.random.seed(0)
+
+    def compute_reciprocals(values):
+        output = np.empty(len(values))
+        for i in range(len(values)):
+            output[i] = 1.0 / values[i]
+        return output
+
+    values = np.random.randint(1, 10, size=5)
+    print(values)
+    print(compute_reciprocals(values))
+
+    # It turns out that the bottleneck here is not the operations themselves, but the
+    # type-checking and function dispatches that CPython must do at each cycle of the
+    # loop. Each time the reciprocal is computed, Python first examines the object’s
+    # type and does a dynamic lookup of the correct function to use for that type.
+
+    # If we were working in compiled code instead, this type specification would be
+    # known before the code executes and the result could be computed much more efficiently
+
+    # Numpy provides a convenient interface into just this kind of statically typed,
+    # compiled routine. This is known as vectorized operation.
+
+    # The NumPy version is much quicker at compiling the code
+    print(1.0 / values)
+
+    # Vectorized operations in NumPy are implemented via ufuncs, whose main purpose is
+    # to quickly execute repeated operations on values in NumPy arrays
+
+    # two arrays:
+    print(np.arange(5) / np.arange(1, 6))
+
+    # Multidimensional arrays:
+    x = np.arange(9).reshape(3, 3)
+    print(x**2)
+
+    # Array Arithmetic
+
+    x = np.arange(4)
+    print("x =", x)
+    print("x+5 =", x+5)
+    print("x//2 =", x // 2)
+
+    print(-(0.5*x + 1) ** 2)
+
+    # Arithmetic Operators
+    np.add(x, 2)
+
+    # Table:
+    np.add()              # Addition
+    np.subtract()         # Subtraction
+    np.negative()         # Unary Negation
+    np.multiply()        # Multiplication
+    np.divide()           # Division
+    np.floor_divide()     # Floor division (e.g., 3 // 2 = 1)
+    np.power()            # Exponentiation
+    np.mod()              # Modulus/remainder
+
+    # Absolute value:
+    x = np.array([-2, -1, 0, 1, 2])
+    print(abs(x))
+
+    # The corresponding ufunc is np.absolute()
+
+    # Trigonometric functions
+    theta = np.linspace(0, np.pi, 3)
+
+    print("theta =", theta)
+    print("sin(theta) =", np.sin(theta))
+    print("arcsin(theta) =", np.arcsin(theta))
+    # Same goes for all other functions
+
+    # Exponents and Logarithms
+    x = [1, 2, 3]
+    print("e^x =", np.exp(x))
+    print("2^x =", np.exp2(x))
+    print("3^x =", np.exp(3, x))
+
+    print("\nln(x) =", np.log(x))
+    print("log2(x) =", np.log2(x))
+
+    print("exp(x) - 1 =", np.expm1(x))
+    print("log(1+x) =", np.log1p(x))
+
+    # You can find specialized ufuncs for complicated mathematical functions, go to
+    # scipy.special, which like NumPy, has many more ufuncs that it  provides for any
+    # obscure calculation
 
 def Advanced_Ufunc_Features():
-    print("This must be implemented!")
+
+    # For large calculations, it is sometimes useful to be able to specify the array where the
+    # result of the calculation will be stored
+    x = np.arange(5)
+    y = np.arange(5)
+    np.multiply(x, 10, out=y)
+    print(y)
+
+    y = np.zeros(10)
+    np.power(2, x, out=y[::2])
+    print(y)
+
+    # This practice is so that with large calculations, you save memory when it is stored
+    # in an array.
+
+    # Aggregates
+
+    # Reduce aggregate
+    x = np.arange(1, 6)
+    print(x)
+    print(np.add.reduce(x))
+
+    print(np.multiply.reduce(x))
+
+    # If we’d like to store all the intermediate results of the computation, we can instead use
+    # accumulate:
+
+    print(np.add.accumulate(x))
+
+    # Outer products
+
+    # Any ufuncs can compute the output of all pairs of two different inputs using the
+    # the outer method
+
+    x = np.arange(1, 6)
+    print(np.multiply.outer(x, x))
 
 def Aggregation_Min_Max_and_Everything_in_Between():
-    print("This must be implemented!")
+
+    # Often when you are faced with a large amount of data, a first step is to compute sum‐
+    # mary statistics for the data in question
+
+    # Summing the values in an array
+
+    # Built-in Python sum function:
+    L = np.random.random(100)
+    print(L)
+    print(sum(L))
+
+    # NumPy version:
+    print(np.sum(L))
+
+    # The NumPy version executes the operation in compiled code, which is much more quicker
+
+    # Minimum and Maximum
+
+    # Built-in Python max/min functions:
+    min(L), max(L)
+
+    # NumPy's version:
+    np.min(L), np.max(L)
+
+    # A shorter syntax is to use methods of the array objec itself:
+    L.min(), L.max(), L.sum()
+
+    # Multidimensional aggregates
+    M = np.random.random((3, 4))
+    print(M)
+
+    print(M.sum())
+    print(M.max(axis=1))
+    print(M.min(axis=0))
+
+    # Aggregation functions
+
+    # Additionally, most aggregates have a NaN-safe counterpart that computes
+    # the result while ignoring missing values, which are marked by the special IEEE
+    # floating-point NaN value.
+    np.sum(),         np.nansum()           # Compute sum of elements
+    np.prod(),        np.nanprod()          # Compute product of elements
+    np.mean(),        np.nanmean()          # Computer mean of elements
+    np.std(),         np.nanstd()           # Computer standard deviation
+    np.var(),         np.nanvar()           # Compute variance
+    np.min(),         np.nanmin()           # Compute min value
+    np.max(),         np.nanmax()           # Compute max value
+    np.argmin(),      np.nanargmin()        # Compute index of min value
+    np.argmax(),      np.nanargmax()        # Compute index of max value
+    np.median(),      np.nanmedian()        # Compute median of elements
+    np.percentile,    np.nanpercentile()    # Compute rank-based statistics of elements
+    np.any(),                               # Evalute whether any elements are true
+    np.all(),                               # Evaluate whether all elements are true
 
 def  What_Is_the_Average_Height_of_US_Presidents():  # Exercise example
 
@@ -379,6 +558,6 @@ if __name__ == "__main__":
     # Array_Concatenation_and_Splitting()
     # Computation_on_NumPy_Arrays_Universal_Functions()
     # Advanced_Ufunc_Features()
+    Aggregation_Min_Max_and_Everything_in_Between()
     # Aggregation_Min_Max_and_Everything_in_Between()
-    # Aggregation_Min_Max_and_Everything_in_Between()
-    What_Is_the_Average_Height_of_US_Presidents()
+    # What_Is_the_Average_Height_of_US_Presidents()
