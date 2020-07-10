@@ -671,6 +671,15 @@ def Comparisons_Masks_and_Boolean_Logic(): # Example Included
     plt.ylabel('inches')
     print(plt.show())
 
+    # Digging into the data
+
+    # One approach to this would be to answer these questions by hand: loop through
+    # the data, incrementing a counter each time we see values in some desired range.
+    # This approach is inefficient. NumPy's ufuncs are a better substitute in place
+    # of loops.
+
+    # Comparison Operators as ufuncs
+
 
 
 
