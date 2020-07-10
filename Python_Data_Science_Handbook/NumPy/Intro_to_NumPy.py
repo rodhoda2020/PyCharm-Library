@@ -621,10 +621,60 @@ def Computation_on_Arrays_Broadcasting():
     a.shape = (3,)
 
     # This would cause us to get an error.
-    M + a
+    #  M + a
 
 def Broadcasting_in_Practice():
-    print("Implement!")
+
+    # Centering an array
+
+    X = np.random.random((10, 3))
+    print(X)
+
+    Xmean = X.mean(0)
+    print(Xmean)
+
+    X_centered = X - Xmean
+
+    print(X_centered.mean(0))
+
+    print(X_centered)
+
+    # Plotting a two-dimensional function
+
+    # One place that broadcasting is very useful is in displaying images based on two-dimensional functions
+    # If we want to define a function z=f(x,y), broadcasting can be used to compute the function across the grid:
+    x = np.linspace(0, 5, 50)
+    y = np.linspace(0, 5, 50)[:, np.newaxis]
+
+    print(x), print(y)
+
+    z = np.sin(x) ** 10 + np.cos(10 + y * x) * np.cos(x)
+
+    plt.imshow(z, origin="lower", extent=[0, 5, 0, 5], cmap='viridis')
+    plt.colorbar()
+    print(plt.show())
+
+def Comparisons_Masks_and_Boolean_Logic(): # Example Included
+
+    # Example: Counting Rainy Days
+
+    # Imagine you have a series of data that represents the amount of precipitation
+    # each day for a year in a given city. Here we'll load the daily rainfall
+    # statistics for the city of Seattle.
+
+    # We are extracting the column that includes the precipitation
+    rainfall = pd.read_csv(r'Seattle2014.csv')["PRCP"].values
+    inches = rainfall / 254
+    print(inches.shape)
+    plt.hist(inches, 40)
+
+    plt.ylabel('inches')
+    print(plt.show())
+
+
+
+
+
 
 if __name__ == "__main__":
     # Fixed_Type_Array_in_Python()
@@ -641,4 +691,6 @@ if __name__ == "__main__":
     # Aggregation_Min_Max_and_Everything_in_Between()
     # Aggregation_Min_Max_and_Everything_in_Between()
     # What_Is_the_Average_Height_of_US_Presidents()
-    Computation_on_Arrays_Broadcasting()
+    # Computation_on_Arrays_Broadcasting()
+    # Broadcasting_in_Practice()
+    Comparisons_Masks_and_Boolean_Logic()
