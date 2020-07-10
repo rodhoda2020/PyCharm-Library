@@ -512,7 +512,7 @@ def Aggregation_Min_Max_and_Everything_in_Between():
     np.any(),                               # Evalute whether any elements are true
     np.all(),                               # Evaluate whether all elements are true
 
-def  What_Is_the_Average_Height_of_US_Presidents():  # Exercise example
+def What_Is_the_Average_Height_of_US_Presidents():  # Exercise example
 
     df = pd.read_csv('president_heights.csv.txt')
     # print(df)
@@ -560,6 +560,71 @@ def Computation_on_Arrays_Broadcasting():
 
     # Adding a scalar (zero-dimensional array) to an array:
     print(a+5)
+
+    # We can similarly extend this to arrays of higher dimensions:
+    M = np.ones((3, 3))
+    print(M)
+
+    print(M + a)
+
+    a = np.arange(3)
+    b = np.arange(3)[:, np.newaxis] # Prints in vertical direction
+
+    print(a)
+    print(b)
+
+    print(a+b)
+
+    # Rules of Broadcasting
+
+    # Broadcasting in NumPy follows a strict set of rules to determine the interaction between the two arrays.
+
+    # Rule 1: If the two arrays differ in their number of dimensions, the shape of the one with the fewer
+    #         dimensions is padded with ones on its leading (left) side.
+
+    # Broadcasting example 1:
+    M = np.ones((2, 4))
+    a = np.arange(4)
+
+    print(M)
+    print(a)
+
+    M.shape = (2, 4)
+    a.shape = (4,)
+
+    print(M+a)
+
+    # Rule 2: If the shape of the two arrays does not match in any dimension, the array with shape equal to 1
+    # in that dimension is stretched to match the other shape.
+
+    # Broadcasting example 2:
+    a = np.arange(3).reshape((3, 1))
+    b = np.arange(3)
+
+    print(a)
+
+    a.shape = (3, 1)
+    b.shape = (3,)
+
+
+    print(a + b)
+
+    # Rule 3: If in any dimension the sizes disagree and neither is equal to 1, an error is raised.
+
+    # Broadcasting example 3:
+
+    # Two arrays that are not compatible
+    M = np.ones((3, 2))
+    a = np.arange(3)
+
+    M.shape = (3, 2)
+    a.shape = (3,)
+
+    # This would cause us to get an error.
+    M + a
+
+def Broadcasting_in_Practice():
+    print("Implement!")
 
 if __name__ == "__main__":
     # Fixed_Type_Array_in_Python()
