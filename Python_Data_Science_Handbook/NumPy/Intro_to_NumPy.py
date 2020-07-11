@@ -669,7 +669,7 @@ def Comparisons_Masks_and_Boolean_Logic(): # Example Included
     plt.hist(inches, 40)
 
     plt.ylabel('inches')
-    print(plt.show())
+    # print(plt.show())
 
     # Digging into the data
 
@@ -679,6 +679,35 @@ def Comparisons_Masks_and_Boolean_Logic(): # Example Included
     # of loops.
 
     # Comparison Operators as ufuncs
+
+    x = np.array([1, 2, 3, 4, 5])
+    print(x < 3)
+    print(x > 3)
+    print(x <= 3)
+    print((2*x) == (x**2))
+
+    # ==        np.equal
+    # !=        np.not_equal
+    # <         np.less
+    # <=        np.less_equal
+    # >         np.greater
+    # >=        np.greater_equal
+
+    rng = np.random.RandomState(0)
+    print(rng)
+
+    x = rng.randint(10, size=(3, 4))
+    print(x)
+
+    print(x < 6) # The result is a boolean array
+
+    # Working with Boolean Arrays
+
+    # Counting entries
+
+    print(np.count_nonzero( x < 6))
+
+    print(np.sum(x < 6), axis=1)
 
 
 
