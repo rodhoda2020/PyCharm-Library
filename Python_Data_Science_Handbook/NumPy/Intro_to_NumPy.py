@@ -707,11 +707,64 @@ def Comparisons_Masks_and_Boolean_Logic(): # Example Included
 
     print(np.count_nonzero( x < 6))
 
-    print(np.sum(x < 6), axis=1)
+    # How many values less than 6
+    print(np.sum(x < 6))
 
+    # How many values less than 6 in each row
+    print(np.sum(x < 6, axis=1))
 
+    # Are there any values greater than 8
+    np.any(x > 8)
 
+    # Are all values less than 10
+    np.all(x < 10)
 
+    # Are all values equal to 6
+    np.all(x == 6)
+
+    # Back to the example
+    # How about if we wanted to know about days with rain less than four inches and greater than one inch
+    print(np.sum((inches > 0.5) & (inches < 1)))
+
+    # There are 29 days with rainfall between 0.5 and 1 inches.
+
+    print(np.sum(~( (inches <= 0.5) | (inches >= 1))))
+
+    print("Number days without rain: ", np.sum(inches == 0))
+    print("Number of days with rain: ", np.sum(inches != 0))
+    print("Days with more than 0.5 inches: ", np.sum(inches > 0.5))
+    print("Rainy days with < 0.1 inches:  ", np.sum((inches > 0) & (inches < 0.1)))
+
+    # Boolean Arrays as Masks
+
+    # A more powerful pattern is to use Boolean arrays as masks, to select particular subsets of data themselves.
+
+    # As before, we can obtain a Boolean array for, say, values that are less than 5:
+    print(x < 5)
+
+    # Now to select these values from the array, we can simply index on this Boolean array;
+
+    # This is known as masking operation:
+    print(x[x < 5])
+    # What is returned is a one-dimensional array filled with all the values that meet this condition: in other words,
+    # all the values in positions at which the mark array is True.
+
+    # Back to the Seattle rain data:
+    rainy = (inches > 0)
+
+    summer = ((np.arange(365) - 172 < 90) & (np.arange(365) - 172 > 0))
+    print(summer)
+
+    print("Median precip on rainy days in 2014 (inches): ", np.median(inches[rainy]))
+
+    print("Median precip on summer days in 2014 (inches): ", np.median(inches[summer]))
+
+    print("Maximum precip on summer days in 2014 (inches): ", np.max(inches[summer]))
+
+    print("Median precip on non-summer days in 2014 (inches): ", np.median(inches[rainy & ~summer]))
+
+def Fancy_Indexing():
+    print("Implement!")
 
 
 if __name__ == "__main__":
@@ -731,4 +784,5 @@ if __name__ == "__main__":
     # What_Is_the_Average_Height_of_US_Presidents()
     # Computation_on_Arrays_Broadcasting()
     # Broadcasting_in_Practice()
-    Comparisons_Masks_and_Boolean_Logic()
+    # Comparisons_Masks_and_Boolean_Logic()
+    Fancy_Indexing()
