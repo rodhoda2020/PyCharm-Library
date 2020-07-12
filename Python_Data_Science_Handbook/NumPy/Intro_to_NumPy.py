@@ -784,7 +784,7 @@ def Fancy_Indexing(): # Example Included
     ind = [3, 7, 4]
     print(x[ind])
 
-    # With fancy indexing, the shape of the result relfects teh shape of the
+    # With fancy indexing, the shape of the result reflects the shape of the
     # index arrays rather than the shape of the array being indexed:
     ind = np.array([[3, 7],
                    [4, 5]])
@@ -813,8 +813,79 @@ def Fancy_Indexing(): # Example Included
 
     # Example: Selecting Random Points
 
+    # One common use of fancy indexing is the selection of subsets of rows
+    # from a matrix.
+    mean = [0, 0]
+    cov = [[1, 2],
+           [2, 5]]
 
+    X = rand.multivariate_normal(mean, cov, 100)
+    print(X.shape)
 
+    plt.scatter(X[:, 0], X[:, 1])
+    # plt.show()
+
+    # Let's use fancy indexing to select 20 random points.
+    indices = np.random.choice(X.shape[0], 20, replace=False)
+    print(indices)
+
+    selection = X[indices]
+    print(selection.shape)
+
+    # To see which points were selected, let's over-plot large circles at
+    # the locations of the selected points
+    plt.scatter(X[:, 0], X[:, 1], alpha=0.3)
+    plt.scatter(selection[:, 0], selection[:, 1], facecolor='none', s=200)
+    # plt.show()
+
+    # Modifying values with fancy indexing
+
+    # Just as fancy indexing can be used to access parts of an array, it can
+    # also be used to modify parts of an array
+
+    # Example:
+    x = np.arange(10)
+    i = np.array([2, 1, 8, 4])
+    x[i] = 99
+    print(x)
+
+    # We can use any assignment-type operator:
+    x[i] -= 10
+    print(x)
+
+    # Notice that repeated indices with these operations can cause some
+    # unexpected results.
+    x = np.zeros(10)
+    x[[0, 0]] = [4, 6]
+    print(x)
+
+    # Example: Binning Data
+
+    # Imagine we have 1,000 values and would like to quickly find where they
+    # fall within an array of bins. We would use ufunc.at like this:
+    np.random.seed(42)
+    x = np.random.randn(100)
+    print(x)
+
+    # Compute a histogram by hand
+    bins = np.linspace(-5, 5, 20)
+    counts = np.zeros_like(bins)
+
+    # Find the appropriate bin for each x
+    i = np.searchsorted(bins, x)
+
+    # Add 1 to each of these bins
+    np.add.at(counts, i, 1)
+
+    plt.plot(bins, counts, linestyle='steps')
+    plt.show()
+
+    # Matplotlib provides the plt.hist() routine, which does the same in a
+    # single line:
+    plt.hist(x, bins, histtype='step')
+
+def Sorting_Arrays():
+    print("Implement")
 
 if __name__ == "__main__":
     # Fixed_Type_Array_in_Python()
@@ -834,4 +905,5 @@ if __name__ == "__main__":
     # Computation_on_Arrays_Broadcasting()
     # Broadcasting_in_Practice()
     # Comparisons_Masks_and_Boolean_Logic()
-    Fancy_Indexing()
+    # Fancy_Indexing()
+    Sorting_Arrays()
