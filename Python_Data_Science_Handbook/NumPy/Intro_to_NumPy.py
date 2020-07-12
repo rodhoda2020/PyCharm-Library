@@ -763,8 +763,57 @@ def Comparisons_Masks_and_Boolean_Logic(): # Example Included
 
     print("Median precip on non-summer days in 2014 (inches): ", np.median(inches[rainy & ~summer]))
 
-def Fancy_Indexing():
-    print("Implement!")
+def Fancy_Indexing(): # Example Included
+
+    # Fancy indexing is like the simple indexing we've already seen, but we
+    # pass arays of indices in place of single scalars
+
+    # Exploring Fancy Indexing
+
+    # Example:
+    rand = np.random.RandomState(42)
+    print(rand)
+
+    x = rand.randint(100, size=10)
+    print(x)
+
+    # If we wanted to access three different elements:
+    print([x[3], x[7], x[2]])
+
+    # Alternative
+    ind = [3, 7, 4]
+    print(x[ind])
+
+    # With fancy indexing, the shape of the result relfects teh shape of the
+    # index arrays rather than the shape of the array being indexed:
+    ind = np.array([[3, 7],
+                   [4, 5]])
+    print(x[ind])
+
+    # Multiple dimensions:
+    X = np.arange(12).reshape((3, 4))
+    print(X)
+
+    # Like with standard indexing, the first index refers to the row, and
+    # the second to the column
+    row = np.array([0, 1, 2])
+    col = np.array([2, 1, 3])
+    print(X[row, col])
+
+    print(X[row[:, np.newaxis], col])
+
+    # Combined Indexing
+
+    print(X)
+
+    # We can combine fancy and simple indices:
+    print(X[2, [2, 0, 1]])
+
+    # We can also combining fancy indexing with masking and slicing
+
+    # Example: Selecting Random Points
+
+
 
 
 if __name__ == "__main__":
