@@ -885,7 +885,104 @@ def Fancy_Indexing(): # Example Included
     plt.hist(x, bins, histtype='step')
 
 def Sorting_Arrays():
-    print("Implement")
+
+    # This section covers algorithms related to sorting values in NumPy arrays
+    # Insertion sorts, selection sorts, merge sorts, quick sorts, bubble sorts
+
+    # Selection sort repeatedly finds the minimum from a list, and makes
+    # swaps until the list is sorted
+    def selection_sort(x):
+        for i in range(len(x)):
+            swap = i + np.argmin(x[i:])
+            (x[i], x[swap]) = (x[swap], x[i])
+        return x
+
+    x = np.array([2, 1, 4, 3, 5])
+    print(selection_sort(x))
+
+    # The Python version of selection sort:
+    def selection_sort_two(x):
+        for i in range(len(x)):
+            min_idx = i
+            for j in range(i+1, len(x)):
+                if x[min_idx] > x[j]:
+                    min_idx = j
+
+            x[i], x[min_idx] = x[min_idx], x[i]
+        return x
+
+    print(selection_sort_two(x))
+
+    # The problem with this sorting algorithm is that it's big-O notation is
+    # O(N^2).
+
+    # Fast sorting in NumPy: np.sort and np.argsort
+
+    # Python has built-in sort and sorted functions to work with lists.
+    # By default, np.sort uses and O(NlogN), quicksort algorithm.
+    print(np.sort(x))
+
+    # If you prefer to sort the array in-place, you can instead use the sort
+    # method of arrays:
+    x.sort()
+    print(x)
+
+    # A related function is argsort, which instead returns the indices of
+    # the sorted elements:
+    i = np.argsort(x)
+    print(i)
+
+    # This can then be used to construct a sorted array:
+    print(x[i])
+
+    # Sorting along rows or columns
+
+    # A useful feature of NumPy's sorting algorithms is the ability to sort
+    # along specific rows/columns of a multidimensional array using the
+    # axis argument
+    rand = np.random.RandomState(42)
+    print(rand)
+    X = rand.randint(0, 10, (4, 6))
+    print(X)
+
+    # Sort each column of X
+    print(np.sort(X, axis=0))
+
+    # Sort each row of C
+    print(np.sort(X, axis=1))
+
+    # Partial Sorts: Partitioning
+
+    # Sometimes we're not interesting in sorting the entire array, but
+    # simply want to find the K smallest value in the array. NumPy provides
+    # this in the np.partition function. np.partition takes an array and a
+    # number K; the result is a new array with the smallest K values to the
+    # left of the partition, and the remaining values to the right
+
+    z = np.array([7, 2, 3, 1, 6, 5, 4])
+    print(np.partition(x, 3))
+
+    # Note that the first three values in the resulting array are the smallest
+    # in the array.
+
+    # We can partition along an arbitrary axis of a multidimensional array:
+    print(np.partition(X, 2, axis=1))
+
+    # Just as there is a np.argsort, there is a np.argpartition that computes
+    # indices of the partition.
+
+    # Example: k-Nearest Neighbors
+
+    # Let's see how we might use this argsort function along multiple axes
+    # to find the nearest neighbors of each point in a set.
+
+    # Random two-dimensional plane
+    X = rand.rand(10, 2)
+    print(X)
+    plt.scatter(X[:, 0], X[:, 1], s=100)
+    plt.show()
+
+    dist_sq = np.sum((X[:, np.newaxis,:] - X[np.newaxis,:,:]) ** 2, axis = -1)
 
 if __name__ == "__main__":
     # Fixed_Type_Array_in_Python()
