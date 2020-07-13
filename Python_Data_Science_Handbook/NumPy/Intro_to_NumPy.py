@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn; seaborn.set()
+import timeit
 
 def Fixed_Type_Array_in_Python():
 
@@ -980,9 +981,95 @@ def Sorting_Arrays():
     X = rand.rand(10, 2)
     print(X)
     plt.scatter(X[:, 0], X[:, 1], s=100)
+    # plt.show()
+
+    dist_sq = np.sum((X[:, np.newaxis,:] - X[np.newaxis,:,:]) ** 2, axis=-1)
+
+    # For each pair of points, compute differences in their coordinates
+    differences = X[:, np.newaxis, :] - X[np.newaxis, :, :]
+    print(differences.shape)
+
+    # Square the coordinate differences
+    sq_differences = differences ** 2
+    print(sq_differences.shape)
+
+    dist_sq = sq_differences.sum(-1)
+    print(dist_sq.shape)
+
+    print(dist_sq.diagonal())
+
+    nearest = np.argsort(dist_sq, axis=1)
+    print(nearest)
+
+    K = 2
+    nearest_partition = np.argpartition(dist_sq, K + 1, axis=1)
+
+    plt.scatter(X[:, 0], X[:, 1], s=100)
+
+    # Draw lines from each point to its two nearest neighbors
+    K = 2
+
+    for i in range(X.shape[0]):
+        for j in nearest[i, :K+1]:
+            # Plot a line from X[i] to X[j]
+            plt.plot(*zip(X[j], X[i]), color='black')
     plt.show()
 
-    dist_sq = np.sum((X[:, np.newaxis,:] - X[np.newaxis,:,:]) ** 2, axis = -1)
+def NumPy_Structured_Data():
+
+    # This section demonstrates the use of NumPy's structured arrays and
+    # record arrays, which provide efficient storage for compound,
+    # heterogeneous data. Scenarios like this often lend themselves
+    # to the sue of Pandas DataFrames
+
+    # Imagine that we have several categories of data on a number of data
+    # on a number of people (say, name, age, and height), and we'd like
+    # to store these values for use in a Python program.
+    name = ['Alice', 'Bob', 'Cathy', 'Doug']
+    age = [25, 45, 37, 19]
+    weight = [55.0, 85.5, 68.0, 61.5]
+
+    # Recall that previously we created a simple array using an expression
+    # like this:
+    x = np.zeros(4, dtype=int)
+
+    # We can similarly create a structured array using a compound data type
+    # specification:
+    data = np.zeros(4, dtype={'names':('name', 'age', 'weight'),
+                              'formats':('U10', 'i4', 'f8')})
+    print(data.dtype)
+
+    # U10 translates to "Unicode string of maximum length 10.
+    # i4 translates to 4-byte (32 bit) integer
+    # f8 translates to 8-byte (64 bit) float
+
+    # Now that we've created an empty container array, we can fill the array
+    # with our lists of values
+    data['name'] = name
+    data['age'] = age
+    data['weight'] = weight
+    print(data)
+
+    # Get all names
+    print(data['name'])
+
+    # Get first row of data
+    print(data[0])
+
+    # Get the name from the last row
+    print(data[-1]['name'])
+
+    # get names where age is under 30
+    print(data[data['age'] < 30]['name'])
+
+    # Creating Structured Arrays
+
+    # Numerical types can be specified with Python types or NumPy dtypes instead
+    np.dtype({'names':('name', 'age', 'weight'),
+              'formats':((np.str_, 10), int, np.float32)})
+
+    # The rest of this section has been skipped because I just want to move on
+    # to the next unit. Don't worry, it was only a couple of pages.
 
 if __name__ == "__main__":
     # Fixed_Type_Array_in_Python()
@@ -1003,4 +1090,5 @@ if __name__ == "__main__":
     # Broadcasting_in_Practice()
     # Comparisons_Masks_and_Boolean_Logic()
     # Fancy_Indexing()
-    Sorting_Arrays()
+    # Sorting_Arrays()
+    NumPy_Structured_Data()
