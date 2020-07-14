@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn; seaborn.set()
-import timeit
 
 def Fixed_Type_Array_in_Python():
 
@@ -1070,6 +1069,7 @@ def NumPy_Structured_Data():
 
     # The rest of this section has been skipped because I just want to move on
     # to the next unit. Don't worry, it was only a couple of pages.
+
 
 if __name__ == "__main__":
     # Fixed_Type_Array_in_Python()
