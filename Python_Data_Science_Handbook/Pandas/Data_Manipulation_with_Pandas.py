@@ -222,6 +222,17 @@ def Introducing_Pandas_Objects():
     indA.intersection(indB)
 
 def Data_Indexing_and_Selection():
+
+    # In the NumPy Unit, we looked in detail at methods and tools to access, set, and modify
+    # values in NumPy arrays. These included indexing, slicing, masking, fancy indexing, and
+    # combinations thereof. Here, we'll look at similar means of accessing and modifying
+    # values in Pandas Series and DataFrame objects.
+
+    # We'll start with the simple case of the one-dimensional Series object, and then move on
+    # to the more complicated two-dimensional DataFrame object.
+
+    # Data Selection
+
     print("Implement!")
 
 if __name__ == "__main__":
