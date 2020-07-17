@@ -231,10 +231,171 @@ def Data_Indexing_and_Selection():
     # We'll start with the simple case of the one-dimensional Series object, and then move on
     # to the more complicated two-dimensional DataFrame object.
 
-    # Data Selection
+    # DATA SELECTION IN SERIES
 
+    # A series object acts in many ways like a one-dimensional NumPy array,
+    # and in many ways like a standard Python dictionary. With these overlapping
+    # analogies in mind, we can understand data indexing and selection better
+
+    # Series in dictionary
+
+    data = pd.Series([0.25, 0.5, 0.75, 1.0],
+                     index=['a', 'b', 'c', 'd'])
+    print(data)
+
+    print(data['b'])
+
+    print('a' in data)
+    print(data.keys())
+    print(list(data.items()))
+
+    # Series objects can even be modified with a dictionary-like syntax. Just
+    # as you can extend a dictionary by assigning to a new key, you can extend
+    # a Series by assigning to a new index value
+    data['e'] = 1.25
+    print(data)
+
+    # Series as a one-dimensional array
+
+    # A Series builds on this dictionary-like interface and provides array-style
+    # item selection via the same basic mechanisms as NumPy arrays - that is,
+    # slices, masking, and fancy indexing. Example of these are as follows:
+
+    # Slicing by explicit index
+    print(data['a':'c'])
+
+    # Slicing by implicit integer index
+    print(data[0:2])
+
+    # Masking
+    print(data[(data > 0.3) & (data < 0.8)])
+
+    # Fancy indexing
+    print(data[['a', 'e']])
+
+    # Among these, slicing may be the most confusing. Notice that when you are
+    # slicing with an explicit index (in line 265), the final index is included
+    # in the slice, while when you're slicing with an implicit index (in line
+    # 268) the final index is excluded from the slice
+
+    # Indexers: loc, iloc, and ix
+
+    # The loc attribute allows indexing and slicing that always reference the
+    # explicit index:
+
+    data = pd.Series(['a', 'b', 'c'], index=[1, 3, 5])
+    print(data.loc[1])
+
+    print(data.loc[1:3])
+
+    # The iloc attribute allows indexing and slicing that always references the
+    # implicit Python-style index:
+    print(data.iloc[1])
+
+    print(data.iloc[1:3])
+
+    # The third indexing attribute, ix, is a hybrid of the two, and for Series
+    # objects is equivalent to standard []-based indexing. The purpose of the ix
+    # indexer will become more apparent in the context of DataFrame objects.
+
+    # One guiding principle of Python code is that 'explicit is better than
+    # implicit.' The explicit nature of loc and iloc make them very useful in
+    # maintaining clean and readable code; especially in the case of integer
+    # indexes.
+
+    # DATA SELECTION IN DATAFRAME
+
+    # Recall that a DataFrame acts in many ways like a two-dimensional or
+    # structured array, and in other ways like a dictionary of Series structures
+    # sharing the same index
+
+    # DataFrame as a dictionary
+
+    # The first analogy we will consider is the DataFrame as a dictionary
+    # of related Series objects
+
+    area = pd.Series({'California': 423967, 'Texas': 695662,
+                      'New York': 141297, 'Florida': 170312,
+                      'Illinois': 149995})
+    pop = pd.Series({'California': 38332521, 'Texas': 26448193,
+                     'New York': 19651127, 'Florida': 19552860,
+                     'Illinois': 12882135})
+
+    data = pd.DataFrame({'area': area, 'pop': pop})
+    print(data)
+
+    # The individual Series that make up the columns of the DataFrame can be
+    # accessed via dictionary-style indexing of the column name:
+    print(data['area'])
+
+    # Equivalently, we can use attribute-style access with column names that
+    # are strings:
+    print(data.area)
+
+    # If the column names are not strings, or if the column names conflict with
+    # methods of the DataFrame, however, this attribute-style access is not
+    # possible
+
+    # The dictionary-style syntax can also be used to modify the object:
+    data['density'] = data['pop'] / data['area']
+    print(data)
+
+    # DataFrame as two-dimensional array
+
+    print(data.values)
+
+    # With this picture in mind, we can do many familiar array-like observations
+    # on the DataFrame itself. For example, we can transpose the full DataFrame
+    # to swap rows and columns:
+
+    print(data.T)
+
+    # When it comes to indexing of DataFrame objects, however, it is clear that
+    # the dictionary-style indexing of columns precludes our ability to simply
+    # treat it as a NumPy array. In particular, passing a single index to an
+    # array accesses a row:
+    print(data.values[0])
+
+    # and passing a single 'index' to a DataFrame accesses a column:
+    print(data['area'])
+
+    # Thus, for array-style indexing, we need another convention. Here Pandas
+    # again uses the loc, iloc, ix indexers mentioned earlier. Using the iloc
+    # indexer, we can index the underlying array as if it is a simple NumPy
+    # array (using the implicit Python-style index), but the DataFrame is
+    # maintained:
+    print(data.iloc[:3, :2])
+
+    print(data.loc[:'Illinois', :'pop'])
+
+    # The ix indexer allows a hybrid of these two approaches:
+    # Generally don't use it since the ix does not exist
+    # print(data.ix[:3, :'pop'])
+
+    print(data.loc[data.density > 100, ['pop', 'density']])
+
+    # Any of these indexing conventions may also be used to set or modify
+    # values
+    data.iloc[0, 2] = 90
+
+    print(data)
+
+    # Additional indexing conventions
+
+    # While indexing refers to columns, slicing refers to rows:
+    print(data['Florida': 'Illinois'])
+
+    # Such slices can also refer to rows by number rather than by index:
+    print(data[1:3])
+
+    # Similarly, direct masking operations are also interpreted row-wise rather
+    # than column-wise:
+    print(data[data.density > 100])
+
+def Operating_on_Data_in_Pandas():
     print("Implement!")
 
 if __name__ == "__main__":
     # Introducing_Pandas_Objects()
-    Data_Indexing_and_Selection()
+    # Data_Indexing_and_Selection()
+    Operating_on_Data_in_Pandas()
