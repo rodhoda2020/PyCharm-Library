@@ -393,9 +393,148 @@ def Data_Indexing_and_Selection():
     print(data[data.density > 100])
 
 def Operating_on_Data_in_Pandas():
-    print("Implement!")
+
+    # One of the essential pieces of NumPy is the ability to perform quick
+    # element-wise operations. Pandas inherits much of this functionality from
+    # NumPy, and the ufuncs that we introduced in NumPy's "Computation on NumPy
+    # Arrays: Universal Functions" are key to this.
+
+    # Pandas includes a couple useful twists, however: for unary operations
+    # like negation and trig functions, these ufuncs will preserve index and
+    # column labels in the output, and for binary operations such as addition
+    # and multiplication, Pandas will automatically align indices when passing
+    # the objects to the ufunc.
+
+    # This means that keeping the context of data and combining data from
+    # different sources become essentially foolproof ones with Pandas.
+
+    # We will additionally see that there well-defined operations between
+    # one-dimensional Series structures and two-dimensional DataFrame structures.
+
+    # UFUNCS: INDEX PRESERVATION
+
+    # Because Pandas is designed to work with NumPy, any NumPy ufunc will work
+    # on Series and DataFrame objects. Let's demonstrate:
+
+    rng = np.random.RandomState(42)
+    print(rng)
+
+    ser = pd.Series(rng.randint(0, 10, 4))
+    print(ser)
+
+    df = pd.DataFrame(rng.randint(0, 10, (3, 4)),
+                      columns=['A', 'B', 'C', 'D'])
+    print(df)
+
+
+    # If we apply a NumPy ufunc on either of these objects, the result will be
+    # another Pandas object with the indices preserved:
+    print(np.exp(ser))
+
+    # For a slightly more complext calculation:
+    print(np.sin(df * np.pi / 4))
+
+    # UFUNCS: INDEX ALIGNMENT
+
+    # For binary operations on two Series or DataFrame objects, Pandas will align
+    # indices in the process of performing the operation. This is very convenient
+    # when you are working with incomplete data.
+
+    # Index alignment in Series
+
+    area = pd.Series({'Alaska': 1723337, 'Texas': 695662,
+                      'California': 423967}, name='area')
+    pop = pd.Series({'California': 38332521, 'Texas': 26448193,
+                            'New York': 19651127}, name='population')
+
+    print(pop / area)
+
+    # The resulting array contains the union of indices of the two input arrays,
+    # which we could determine using standard Python set arithmetic on these
+    # indices:
+    print(area.index | pop.index)
+
+    # Any missing values are filled in with NaN by default:
+
+    A = pd.Series([2, 4, 6], index=[0, 1, 2])
+    B = pd.Series([1, 3, 5], index=[1, 2, 3])
+
+    print(A+B)
+
+    # If using NaN values is not the desired behavior, we can modify the fill
+    # value using appropriate object methods in place of the operators. For
+    # example, calling A.add(B) is equivalent to calling A + B, but allows
+    # optional explicit specification of the fill value for any elements in A
+    # or B that might be missing:
+    print(A.add(B, fill_value=0))
+
+    # Index alignment in DataFrame
+
+    # A similar type of alignment takes place for both columns and indices when
+    # you are performing operations on DataFrames:
+    A = pd.DataFrame(rng.randint(0, 20, (2, 2)),
+                     columns=list('AB'))
+    print(A)
+
+    B = pd.DataFrame(rng.randint(0, 10, (3, 3)),
+                     columns=list('BAC'))
+    print(B)
+
+    print(A+B)
+
+    # Notice that indices are aligned correctly irrespective of their order in
+    # the two objects, and indices in the result are sorted.
+
+    # Fill_value for DataFrame (Note: Here we'll fill with the mean of all values
+    # in A (which we compute by first stacking the rows of A)):
+    fill = A.stack().mean()
+    print(fill)
+
+    print(A.add(B, fill_value=fill))
+
+    # UFUNCS: OPERATIONS BETWEEN DATAFRAME AND SERIES
+
+    # When you are performing operations between a DataFrame and a Series, and
+    # index and column alignment is similarly maintained. Operations between a
+    # DataFrame and a Series are similar to operations between a two-dimen. and
+    # one-dimen. NumPy array.
+
+    A = rng.randint(10, size=(3, 4))
+    print(A)
+
+    print(A[0])
+    print(A-A[0])
+
+    # In Pandas, the conventions similarly operates row-wise by default:
+    df = pd.DataFrame(A, columns=list("QRST"))
+    print(df)
+
+    print(df - df.iloc[0])
+
+    print(df.iloc[0])
+
+    print('\n')
+    # If you would like to operate column-wise, you can use the object methods
+    # mentioned earlier, while specifying the axis keyword:
+    print(df.subtract(df['R'], axis=0))
+
+    # Note that these DataFrame/Series operations will automatically align
+    # indices between the two elements:
+    halfrow = df.iloc[0, ::2]
+    print(halfrow)
+
+    print(df - halfrow)
+
+    # This preservation and alignment of indices and columns means that
+    # operations on data in Pandas will always maintain the data context, which
+    # prevents the types of silly errors that might come up when you are working
+    # with heterogeneous and/or misaligned data in raw NumPy array.
+
+def Handling_Missing_Data():
+    print('Implement!')
 
 if __name__ == "__main__":
     # Introducing_Pandas_Objects()
     # Data_Indexing_and_Selection()
-    Operating_on_Data_in_Pandas()
+    # Operating_on_Data_in_Pandas()
+    Handling_Missing_Data()
