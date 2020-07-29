@@ -531,7 +531,74 @@ def Operating_on_Data_in_Pandas():
     # with heterogeneous and/or misaligned data in raw NumPy array.
 
 def Handling_Missing_Data():
-    print('Implement!')
+
+    # In this section, we wil discuss some general considerations for missing
+    # data, discuss how Pandas chooses to represent it, and demonstrate some
+    # built-in Pandas tools for handling missing data in Python. Here and
+    # throughout the book, we'll refer to missing data in general as null,
+    # NaN, or NA values
+
+    # TRADE-OFFS IN MISSING DATA CONVENTIONS
+
+    # Generally, there are two strategies to indicating the presence of missing
+    # data in a table or DataFrame: using mask that globally indicates missing
+    # values, or choosing a sentinel values that indicates a missing entry.
+
+    # In the masking approach, the mask might be an entirely separate Boolean
+    # array, or it may involve appropriation of one bit in the data representation
+    # to locally indicate the null status of a value.
+
+    # In the sentinel approach, the sentinel value could be some data-specific
+    # convention, such as indicating a missing integer value with -9999 or some
+    # rare bit pattern, or it could be a more global convention, such as
+    # indicating a missing floating-point value with NaN (Not a Number).
+
+    # MISSING DATA IN PANDAS
+
+    # Pandas chose to use sentinels for missing data, and further chose to use
+    # two already-existing Python null values: the special floating point NaN
+    # value, and the Python none object.
+
+    # None: Pythonic missing data
+
+    # The first sentinel value used by Pandas is None, a Python singleton object
+    # that is often used for missing data in Python code. Because None is a
+    # Python object, it cannot be used in any arbitrary NumPy/Pandas array,
+    # but only in arrays with data type 'object'.
+    vals1 = np.array([1, None, 3, 4])
+    print(vals1.dtype)
+
+    # The use of Python objects in an array also means that if you perform
+    # aggregations like sum() or min() across an array with a None value, you
+    # generally will get an error.
+
+    # NaN: Missing numerical data
+
+    # The other missing data representation, NaN, is different: it is a special
+    # floating-point value recognized by all systems that use the standard IEEE
+    # floating-point representation:
+    vals2 = np.array([1, np.nan, 3, 4])
+    print(vals2.dtype)
+
+    # You should be aware that NaN is a bit like a virus data-it infects any
+    # other compiled it touches. Regardless of the operation, the result of
+    # arithmetic with NaN will be another NaN:
+    print(1 + np.nan)
+
+    # Note that this means that aggregates over the values are well defined
+    # (they don't result in an error) but not always useful:
+    print(vals2.sum())
+
+    # NumPy does provide some special aggregations that will ignore these missing
+    # values:
+    print(np.nansum(vals2))
+
+    # Keep in mind that NaN is specifically a floating-point value; there is no
+    # equivalent NaN value for integers, strings, or other types.
+
+    # NaN and None in Pandas
+
+
 
 if __name__ == "__main__":
     # Introducing_Pandas_Objects()
