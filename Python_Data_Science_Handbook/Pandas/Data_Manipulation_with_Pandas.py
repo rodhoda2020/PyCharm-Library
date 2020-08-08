@@ -598,10 +598,105 @@ def Handling_Missing_Data():
 
     # NaN and None in Pandas
 
+    print(pd.Series([1, np.nan, 2, None]))
 
+    # For types that don't have an available sentinel value, Pandas automatically
+    # type-csts when NA values are present. If we set a value in an integer array
+    # to np.nan, it will automatically be upcast to a floating point type
+    x = pd.Series(range(2), dtype=int)
+    print(x)
+
+    x[0] = None
+    print(x)
+
+    # OPERATING ON NULL VALUES
+
+    # There are several useful methods for detecting, removing, and replacing null
+    # values in Pandas data structures. They are:
+    # pd.isnull()     # Generate a Boolean mask indicating missing values
+    # pd.notnull()    # Opposite of isnull()
+    # pd.dropna()     # Return a filtered version of the data
+    # pd.fillna()     # Return a copy of the data with missing values filled or imputed
+
+    # Detecting null values
+    # Pandas data structures have two useful methods for detecting null data: isnull()
+    # notnull(). Either one will return a Boolean mask over the data. For example:
+    data = pd.Series([1, np.nan, 'hello', None])
+    print(data.isnull())
+
+    # Boolean masks can be used directly as a Series or DataFrame index:
+    print(data[data.notnull()])
+
+    # Dropping null values
+
+    # dropna() (which removes NA values) and fillna() (which fills in NA values).
+    print(data.dropna())
+
+    # For the DataFrame, there are more options.
+    df = pd.DataFrame([[1, np.nan, 2],
+                       [2, 3, 5],
+                       [np.nan, 4, 6]])
+    print(df)
+
+    # We cannot drop single values from a DataFrame; we can only drop full rows
+    # or full columns.
+
+    # By default, dropna() will drop all rows in which any null values is present:
+    print(df.dropna())
+
+    # You can drop NA values along a different axis: axis=1 drops all columns
+    # containing a null value:
+    print(df.dropna(axis='columns'))
+
+    # This drops some good data as well; you might rather be interested in dropping
+    # rows or columns with all NA values, or a majority of NA values. This can be
+    # specified through the 'how' or 'thresh' parameters
+
+    # You can also specify how='all', which will only drop rows/columns that are
+    # null values"
+    df[3] = np.nan
+    print(df)
+
+    print(df.dropna(axis='columns', how='all'))
+
+    # Thresh = threshold
+    # The thresh parameter lets you specify a minimum number of non-null values for the
+    # row/column to be kept:
+    print(df.dropna(axis='rows', thresh=3))
+
+    # Filling null values
+
+    # You might wanna replace the NA values with  a single number like zero, or it might
+    # be some sort of imputation or interpolation from the good values. You could do this
+    # in-place using the isnull() method as a mask, but because it is such a common
+    # operation Pandas providing the fillna() method, which returns a copy of the array
+    # with the null values replaced.
+
+    data = pd.Series([1, np.nan, 2, None, 3], index=list('abcde'))
+    print(data)
+
+    # We can fill NA entries with a single value, such as zero:
+    print(data.fillna(0))
+
+    # We can specify a forward-fill to propagate the previous value forward:
+    print(data.fillna(method='ffill'))
+
+    # Or a back-fill:
+    print(data.fillna(method='bfill'))
+
+    # For DataFrames, the options are similar, but we can also specifyu an axis along
+    # which the fills take place:
+    print(df)
+
+    # Note: axis=1 is columns, axis=0 is rows (which is default)
+    print(df.fillna(method='ffill', axis=1))
+
+def Hierarchical_Indexing():
+    print('Implement!')
 
 if __name__ == "__main__":
     # Introducing_Pandas_Objects()
     # Data_Indexing_and_Selection()
     # Operating_on_Data_in_Pandas()
-    Handling_Missing_Data()
+    # Handling_Missing_Data()
+    Hierarchical_Indexing()
