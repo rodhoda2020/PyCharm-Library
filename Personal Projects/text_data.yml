@@ -1,0 +1,6272 @@
+---
+training:
+  trainings:
+  - workout: Rec 016
+    performed_at: 2020-06-25 09:04:16.295000076 Z
+    star: false
+    time: '00:04:00'
+  - workout: Hanging knee raises endurance 10
+    performed_at: 2020-06-25 08:59:11.871999979 Z
+    star: true
+    time: '00:00:28'
+    repetitions: 10
+  - workout: Str 700
+    performed_at: 2020-06-25 08:57:51.039999961 Z
+    star: true
+    time: '00:15:30'
+  - workout: Supermans technical 30
+    performed_at: 2020-06-25 08:38:45.894000053 Z
+    star: true
+    time: '00:01:02'
+  - workout: Toe touch crunches technical 20
+    performed_at: 2020-06-25 08:37:05.439000129 Z
+    star: true
+    time: '00:00:54'
+  - workout: Pre 028
+    performed_at: 2020-06-25 08:35:33.243999958 Z
+    star: false
+    time: '00:06:30'
+  - workout: Rec 001
+    performed_at: 2020-06-22 22:51:38.947000026 Z
+    star: false
+    time: '00:05:01'
+  - workout: Burpees standard 10
+    performed_at: 2020-06-22 22:46:00.807000160 Z
+    star: true
+    time: '00:00:38'
+    repetitions: 10
+  - workout: Str 101
+    performed_at: 2020-06-22 22:44:46.937000036 Z
+    star: true
+    time: '00:08:41'
+  - workout: Str 099
+    performed_at: 2020-06-22 22:35:14.785999774 Z
+    star: true
+    time: '00:07:29'
+  - workout: Jackknives technical 8
+    performed_at: 2020-06-22 22:27:05.739000082 Z
+    star: true
+    time: '00:00:31'
+  - workout: Pre 001
+    performed_at: 2020-06-22 22:26:13.300999879 Z
+    star: false
+    time: '00:04:11'
+  - workout: Rec 021
+    performed_at: 2020-06-21 23:29:47.036999940 Z
+    star: false
+    time: '00:04:00'
+  - workout: Pikes endurance 10
+    performed_at: 2020-06-21 23:23:59.753000020 Z
+    star: true
+    time: '00:00:26'
+    repetitions: 10
+  - workout: Theseus none 4
+    performed_at: 2020-06-21 23:22:20.911000013 Z
+    star: true
+    time: '00:13:22'
+    personal_best: true
+  - workout: Supermans technical 30
+    performed_at: 2020-06-21 23:06:40.069000005 Z
+    star: true
+    time: '00:01:07'
+  - workout: Pre 006
+    performed_at: 2020-06-21 23:05:15.551000118 Z
+    star: false
+    time: '00:06:06'
+  - workout: Rec 001
+    performed_at: 2020-06-15 22:54:29.279000043 Z
+    star: false
+    time: '00:05:00'
+  - workout: Hebe none 1
+    performed_at: 2020-06-15 22:46:08.226999998 Z
+    star: true
+    time: '00:02:25'
+    personal_best: true
+  - workout: Str 059
+    performed_at: 2020-06-15 22:41:28.552999973 Z
+    star: true
+    time: '00:08:43'
+  - workout: Archer pushups technical 10
+    performed_at: 2020-06-15 22:31:34.575999975 Z
+    star: true
+    time: '00:00:30'
+  - workout: Pullups technical 3
+    performed_at: 2020-06-15 22:30:41.411999940 Z
+    star: true
+    time: '00:00:11'
+  - workout: Pre 049
+    performed_at: 2020-06-15 22:29:54.118999958 Z
+    star: false
+    time: '00:04:19'
+  - workout: Rec 043
+    performed_at: 2020-06-14 23:54:51.238000154 Z
+    star: false
+    time: '00:02:10'
+  - workout: Con 062
+    performed_at: 2020-06-14 23:51:56.375999927 Z
+    star: true
+    time: '00:09:43'
+  - workout: Jackknives technical 6
+    performed_at: 2020-06-14 23:41:41.782999992 Z
+    star: true
+    time: '00:00:29'
+  - workout: Pre 063
+    performed_at: 2020-06-14 23:40:59.270000219 Z
+    star: false
+    time: '00:02:59'
+  - workout: Rec 022
+    performed_at: 2020-06-08 23:48:01.815999984 Z
+    star: false
+    time: '00:04:01'
+  - workout: Hanging leg raises standard 10
+    performed_at: 2020-06-08 23:43:25.456000089 Z
+    star: true
+    time: '00:00:26'
+    repetitions: 10
+    personal_best: true
+  - workout: Str 112
+    performed_at: 2020-06-08 23:41:27.070000171 Z
+    star: true
+    time: '00:12:18'
+  - workout: Str 891
+    performed_at: 2020-06-08 23:27:55.631999969 Z
+    star: true
+    time: '00:08:42'
+  - workout: Archer pushups technical 6
+    performed_at: 2020-06-08 23:17:36.127000093 Z
+    star: true
+    time: '00:00:25'
+  - workout: Pre 009
+    performed_at: 2020-06-08 23:16:38.255000114 Z
+    star: false
+    time: '00:15:36'
+  - workout: Rec 017
+    performed_at: 2020-06-08 00:35:59.929999828 Z
+    star: false
+    time: '00:04:00'
+  - workout: Hanging leg raises standard 10
+    performed_at: 2020-06-08 00:31:10.819000005 Z
+    star: true
+    time: '00:00:30'
+    repetitions: 10
+  - workout: Metis standard 1
+    performed_at: 2020-06-08 00:29:04.550000190 Z
+    star: true
+    time: '00:01:02'
+    personal_best: true
+  - workout: Burpee squat jumps technical 15
+    performed_at: 2020-06-08 00:24:35.440999984 Z
+    star: true
+    time: '00:01:22'
+  - workout: Pre 029
+    performed_at: 2020-06-08 00:21:25.161999940 Z
+    star: false
+    time: '00:07:00'
+  - workout: Rec 001
+    performed_at: 2020-06-06 00:39:16.296000003 Z
+    star: false
+    time: '00:05:01'
+  - workout: Arachne none 1
+    performed_at: 2020-06-06 00:33:19.025999784 Z
+    star: true
+    time: '00:02:24'
+    personal_best: true
+  - workout: Str 054
+    performed_at: 2020-06-06 00:29:10.961999893 Z
+    star: true
+    time: '00:09:22'
+  - workout: Jackknives technical 6
+    performed_at: 2020-06-06 00:19:09.595999956 Z
+    star: true
+    time: '00:00:34'
+  - workout: Archer pushups technical 6
+    performed_at: 2020-06-06 00:18:10.487999916 Z
+    star: true
+    time: '00:01:00'
+  - workout: Pre 019
+    performed_at: 2020-06-06 00:16:49.385999917 Z
+    star: false
+    time: '00:03:22'
+  - workout: Rec 015
+    performed_at: 2020-06-02 23:00:07.703000068 Z
+    star: false
+    time: '00:04:00'
+  - workout: Sprawls endurance 25
+    performed_at: 2020-06-02 22:54:17.062999963 Z
+    star: true
+    time: '00:01:40'
+    repetitions: 25
+  - workout: Str 739
+    performed_at: 2020-06-02 22:49:01.127000093 Z
+    star: true
+    time: '00:17:14'
+  - workout: Pikes technical 20
+    performed_at: 2020-06-02 22:28:21.848999977 Z
+    star: true
+    time: '00:00:46'
+  - workout: Supermans technical 25
+    performed_at: 2020-06-02 22:25:54.347000122 Z
+    star: true
+    time: '00:00:54'
+  - workout: Pre 029
+    performed_at: 2020-06-02 22:24:34.219000101 Z
+    star: false
+    time: '00:07:15'
+  - workout: Rec 022
+    performed_at: 2020-05-31 23:01:39.152999877 Z
+    star: false
+    time: '00:04:00'
+  - workout: Burpees standard 10
+    performed_at: 2020-05-31 22:57:02.403000116 Z
+    star: true
+    time: '00:00:37'
+    repetitions: 10
+  - workout: Str 276
+    performed_at: 2020-05-31 22:55:18.783999919 Z
+    star: true
+    time: '00:18:27'
+  - workout: Str 099
+    performed_at: 2020-05-31 22:35:16.078999996 Z
+    star: true
+    time: '00:07:45'
+  - workout: Jackknives technical 6
+    performed_at: 2020-05-31 22:25:44.470999956 Z
+    star: false
+    time: '00:00:35'
+  - workout: Pre 006
+    performed_at: 2020-05-31 22:24:03.825000047 Z
+    star: false
+    time: '00:05:08'
+  - workout: Rec 017
+    performed_at: 2020-05-30 22:54:37.078999996 Z
+    star: false
+    time: '00:04:00'
+  - workout: Squat jumps strength 10
+    performed_at: 2020-05-30 22:49:16.449999809 Z
+    star: true
+    time: '00:00:16'
+    repetitions: 10
+  - workout: Nemesis none 5
+    performed_at: 2020-05-30 22:47:53.578999996 Z
+    star: true
+    time: '00:07:34'
+    personal_best: true
+  - workout: Cossack squats technical 20
+    performed_at: 2020-05-30 22:38:37.367000102 Z
+    star: true
+    time: '00:01:16'
+  - workout: Pre 029
+    performed_at: 2020-05-30 22:36:49.654999971 Z
+    star: false
+    time: '00:07:20'
+  - workout: Rec 001
+    performed_at: 2020-05-30 00:45:31.819999933 Z
+    star: false
+    time: '00:05:01'
+  - workout: Agon none 1
+    performed_at: 2020-05-30 00:39:45.796000003 Z
+    star: true
+    time: '00:01:26'
+    personal_best: true
+  - workout: Str 015
+    performed_at: 2020-05-30 00:37:37.822000026 Z
+    star: true
+    time: '00:10:32'
+  - workout: Pikes technical 20
+    performed_at: 2020-05-30 00:23:09.276000022 Z
+    star: true
+    time: '00:00:54'
+  - workout: Jackknives technical 4
+    performed_at: 2020-05-30 00:21:22.030000209 Z
+    star: true
+    time: '00:00:44'
+  - workout: Pre 049
+    performed_at: 2020-05-30 00:18:48.659000158 Z
+    star: false
+    time: '00:04:52'
+  - workout: Rec 044
+    performed_at: 2020-05-28 23:03:22.068000078 Z
+    star: false
+    time: '00:02:00'
+  - workout: Con 045
+    performed_at: 2020-05-28 22:57:15.503999948 Z
+    star: true
+    time: '00:07:43'
+  - workout: Burpee squat jumps technical 20
+    performed_at: 2020-05-28 22:46:02.864000082 Z
+    star: true
+    time: '00:01:57'
+  - workout: Pre 066
+    performed_at: 2020-05-28 22:42:47.734000205 Z
+    star: false
+    time: '00:02:08'
+  - workout: Rec 042
+    performed_at: 2020-05-20 23:53:10.057999849 Z
+    star: false
+    time: '00:02:20'
+  - workout: Con 012
+    performed_at: 2020-05-20 23:50:22.816999912 Z
+    star: true
+    time: '00:12:18'
+  - workout: Hanging leg raises technical 20
+    performed_at: 2020-05-20 23:37:44.489999771 Z
+    star: true
+    time: '00:00:05'
+  - workout: Pre 064
+    performed_at: 2020-05-20 23:36:11.136999845 Z
+    star: false
+    time: '00:01:35'
+  - workout: Rec 001
+    performed_at: 2020-05-17 23:00:41.656999826 Z
+    star: false
+    time: '00:05:01'
+  - workout: Hanging knee raises endurance 10
+    performed_at: 2020-05-17 22:54:58.916999816 Z
+    star: true
+    time: '00:00:24'
+    repetitions: 10
+    personal_best: true
+  - workout: Str 112
+    performed_at: 2020-05-17 22:52:38.390000104 Z
+    star: true
+    time: '00:11:46'
+  - workout: Str 059
+    performed_at: 2020-05-17 22:39:29.857999801 Z
+    star: true
+    time: '00:09:23'
+  - workout: Burpee squat jumps technical 15
+    performed_at: 2020-05-17 22:28:08.804999828 Z
+    star: false
+    time: '00:01:10'
+  - workout: Pre 050
+    performed_at: 2020-05-17 22:25:59.166000127 Z
+    star: false
+    time: '00:05:35'
+  - workout: Rec 014
+    performed_at: 2020-05-16 00:53:51.678000211 Z
+    star: false
+    time: '00:04:00'
+  - workout: Sprawls endurance 25
+    performed_at: 2020-05-16 00:37:42.447999954 Z
+    star: true
+    time: '00:01:54'
+    repetitions: 25
+  - workout: Charon none 2
+    performed_at: 2020-05-16 00:31:34.507999897 Z
+    star: true
+    time: '00:06:31'
+    personal_best: true
+  - workout: Pikes technical 15
+    performed_at: 2020-05-16 00:22:41.309000015 Z
+    star: true
+    time: '00:00:36'
+  - workout: Pre 045
+    performed_at: 2020-05-16 00:21:49.236999988 Z
+    star: false
+    time: '00:06:09'
+  - workout: Rec 022
+    performed_at: 2020-05-13 22:54:48.369999885 Z
+    star: false
+    time: '00:04:00'
+  - workout: Kerberos none 1
+    performed_at: 2020-05-13 22:50:13.235000133 Z
+    star: true
+    time: '00:02:01'
+    personal_best: true
+  - workout: Str 232
+    performed_at: 2020-05-13 22:47:29.934000015 Z
+    star: true
+    time: '00:15:12'
+  - workout: Toe touch crunches technical 20
+    performed_at: 2020-05-13 22:28:39.007999897 Z
+    star: true
+    time: '00:00:47'
+  - workout: Pre 005
+    performed_at: 2020-05-13 22:26:24.396999835 Z
+    star: false
+    time: '00:05:43'
+  - workout: Rec 019
+    performed_at: 2020-05-12 22:40:10.391000032 Z
+    star: false
+    time: '00:04:00'
+  - workout: Hanging leg raises standard 10
+    performed_at: 2020-05-12 22:33:47.680000066 Z
+    star: true
+    time: '00:00:27'
+    repetitions: 10
+  - workout: Str 892
+    performed_at: 2020-05-12 22:31:22.080999851 Z
+    star: false
+    time: '00:14:21'
+  - workout: Pullups technical 2
+    performed_at: 2020-05-12 22:15:54.958000183 Z
+    star: true
+    time: '00:00:12'
+  - workout: Cossack squats technical 16
+    performed_at: 2020-05-12 22:15:06.968999862 Z
+    star: true
+    time: '00:00:58'
+  - workout: Pre 031
+    performed_at: 2020-05-12 22:12:53.257999897 Z
+    star: false
+    time: '00:05:51'
+  - workout: Rec 016
+    performed_at: 2020-05-11 23:12:28.529000043 Z
+    star: false
+    time: '00:04:00'
+  - workout: Burpees standard 10
+    performed_at: 2020-05-11 23:07:11.711999893 Z
+    star: true
+    time: '00:00:37'
+    repetitions: 10
+  - workout: Str 568
+    performed_at: 2020-05-11 23:05:14.417999982 Z
+    star: true
+    time: '00:12:59'
+  - workout: Burpee squat jumps technical 10
+    performed_at: 2020-05-11 22:51:05.878999948 Z
+    star: true
+    time: '00:00:53'
+  - workout: Pre 028
+    performed_at: 2020-05-11 22:49:07.200000047 Z
+    star: false
+    time: '00:06:04'
+  - workout: Rec 023
+    performed_at: 2020-05-05 23:19:33.846000194 Z
+    star: false
+    time: '00:05:00'
+  - workout: Jumping pullups endurance 10
+    performed_at: 2020-05-05 23:13:45.862000226 Z
+    star: true
+    time: '00:00:35'
+    repetitions: 10
+    personal_best: true
+  - workout: Str 276
+    performed_at: 2020-05-05 23:12:33.199000120 Z
+    star: true
+    time: '00:19:01'
+  - workout: Str 099
+    performed_at: 2020-05-05 22:52:07.052000045 Z
+    star: true
+    time: '00:07:42'
+  - workout: Supermans technical 20
+    performed_at: 2020-05-05 22:42:50.131000041 Z
+    star: true
+    time: '00:00:48'
+  - workout: Pre 025
+    performed_at: 2020-05-05 22:41:34.013000011 Z
+    star: false
+    time: '00:05:47'
+  - workout: Rec 021
+    performed_at: 2020-05-03 01:34:33.340999841 Z
+    star: false
+    time: '00:04:00'
+  - workout: Pikes endurance 10
+    performed_at: 2020-05-03 01:26:17.878000020 Z
+    star: true
+    time: '00:00:19'
+    repetitions: 10
+  - workout: Venus none 1
+    performed_at: 2020-05-03 01:23:30.816999912 Z
+    star: false
+    time: '00:07:30'
+    personal_best: true
+  - workout: Hanging leg raises technical 20
+    performed_at: 2020-05-03 01:14:19.135999917 Z
+    star: true
+    time: '00:01:07'
+  - workout: Pre 043
+    performed_at: 2020-05-03 01:11:18.811000108 Z
+    star: false
+    time: '00:06:16'
+  - workout: Rec 001
+    performed_at: 2020-05-02 02:01:44.663000106 Z
+    star: false
+    time: '00:05:01'
+  - workout: Theseus none 1
+    performed_at: 2020-05-02 01:55:46.091000080 Z
+    star: true
+    time: '00:01:17'
+    personal_best: true
+  - workout: Str 091
+    performed_at: 2020-05-02 01:52:59.605000019 Z
+    star: true
+    time: '00:10:09'
+  - workout: Supermans technical 15
+    performed_at: 2020-05-02 01:42:18.449999809 Z
+    star: true
+    time: '00:00:32'
+  - workout: Toe touch crunches technical 16
+    performed_at: 2020-05-02 01:40:57.615000009 Z
+    star: true
+    time: '00:00:41'
+  - workout: Pre 036
+    performed_at: 2020-05-02 01:39:48.235000133 Z
+    star: false
+    time: '00:06:03'
+  - workout: Rec 020
+    performed_at: 2020-04-30 23:41:09.404000043 Z
+    star: false
+    time: '00:04:01'
+  - workout: Jumping pullups endurance 10
+    performed_at: 2020-04-30 23:36:14.136999845 Z
+    star: true
+    time: '00:00:39'
+    repetitions: 10
+  - workout: Str 296
+    performed_at: 2020-04-30 23:34:30.911999940 Z
+    star: true
+    time: '00:11:13'
+  - workout: Hanging leg raises technical 20
+    performed_at: 2020-04-30 23:22:01.846000194 Z
+    star: true
+    time: '00:00:59'
+  - workout: Ground supermans technical 15
+    performed_at: 2020-04-30 23:20:24.267999887 Z
+    star: true
+    time: '00:00:38'
+  - workout: Pre 037
+    performed_at: 2020-04-30 23:19:27.363000154 Z
+    star: false
+    time: '00:05:56'
+  - workout: Rec 015
+    performed_at: 2020-04-29 23:23:40.284999847 Z
+    star: false
+    time: '00:04:00'
+  - workout: Pikes endurance 10
+    performed_at: 2020-04-29 23:18:48.721999883 Z
+    star: true
+    time: '00:00:19'
+    repetitions: 10
+    personal_best: true
+  - workout: Str 520
+    performed_at: 2020-04-29 23:17:46.886000156 Z
+    star: true
+    time: '00:20:27'
+  - workout: Burpees technical 20
+    performed_at: 2020-04-29 22:55:23.252000093 Z
+    star: true
+    time: '00:01:15'
+  - workout: Cossack squats technical 10
+    performed_at: 2020-04-29 22:53:32.391999959 Z
+    star: true
+    time: '00:00:38'
+  - workout: Pre 045
+    performed_at: 2020-04-29 22:52:10.871000051 Z
+    star: false
+    time: '00:05:12'
+  - workout: Rec 022
+    performed_at: 2020-04-26 02:42:40.883000135 Z
+    star: false
+    time: '00:04:01'
+  - workout: Jumping pullups endurance 10
+    performed_at: 2020-04-26 02:37:19.534000158 Z
+    star: true
+    time: '00:00:55'
+    repetitions: 10
+  - workout: Str 112
+    performed_at: 2020-04-26 02:34:19.809999942 Z
+    star: true
+    time: '00:11:53'
+  - workout: Str 603
+    performed_at: 2020-04-26 02:20:31.269000053 Z
+    star: true
+    time: '00:10:46'
+  - workout: Pushups technical 20
+    performed_at: 2020-04-26 02:07:48.249999761 Z
+    star: true
+    time: '00:00:42'
+  - workout: Pre 029
+    performed_at: 2020-04-26 02:06:11.880000114 Z
+    star: false
+    time: '00:09:09'
+  - workout: Rec 015
+    performed_at: 2020-04-25 02:26:00.984999895 Z
+    star: false
+    time: '00:04:00'
+  - workout: Pushups standard 10
+    performed_at: 2020-04-25 02:20:06.131000041 Z
+    star: true
+    time: '00:00:17'
+    repetitions: 10
+    personal_best: true
+  - workout: Nemesis none 5
+    performed_at: 2020-04-25 02:18:38.052000045 Z
+    star: true
+    time: '00:09:12'
+  - workout: Hanging leg raises technical 20
+    performed_at: 2020-04-25 02:08:14.201999902 Z
+    star: true
+    time: '00:01:03'
+  - workout: Pre 029
+    performed_at: 2020-04-25 02:05:06.243999958 Z
+    star: false
+    time: '00:06:36'
+  - workout: Rec 021
+    performed_at: 2020-04-20 23:30:08.788000106 Z
+    star: false
+    time: '00:04:00'
+  - workout: Persephone standard 1
+    performed_at: 2020-04-20 23:19:31.692999839 Z
+    star: false
+    time: '00:08:35'
+    personal_best: true
+  - workout: Str 058
+    performed_at: 2020-04-20 23:04:54.819999933 Z
+    star: true
+    time: '00:07:12'
+  - workout: Pullups technical 1
+    performed_at: 2020-04-20 22:56:03.329999923 Z
+    star: true
+    time: '00:00:08'
+  - workout: Burpees technical 15
+    performed_at: 2020-04-20 22:53:46.177999973 Z
+    star: true
+    time: '00:00:54'
+  - workout: Pre 028
+    performed_at: 2020-04-20 22:51:38.168999910 Z
+    star: false
+    time: '00:05:28'
+  - workout: Rec 018
+    performed_at: 2020-04-19 23:00:30.948999881 Z
+    star: false
+    time: '00:04:00'
+  - workout: Sprawls endurance 25
+    performed_at: 2020-04-19 22:53:54.920000076 Z
+    star: true
+    time: '00:01:11'
+    repetitions: 25
+    personal_best: true
+  - workout: Str 064
+    performed_at: 2020-04-19 22:49:04.279000043 Z
+    star: true
+    time: '00:09:31'
+  - workout: Hanging leg raises technical 20
+    performed_at: 2020-04-19 22:36:42.179000139 Z
+    star: true
+    time: '00:01:35'
+  - workout: Jumps technical 10
+    performed_at: 2020-04-19 22:34:43.225999832 Z
+    star: true
+    time: '00:00:13'
+  - workout: Pre 028
+    performed_at: 2020-04-19 22:34:14.436000108 Z
+    star: false
+    time: '00:07:14'
+  - workout: Rec 017
+    performed_at: 2020-04-19 01:06:56.456000089 Z
+    star: false
+    time: '00:04:07'
+  - workout: Plank switches standard 25
+    performed_at: 2020-04-19 01:01:46.427999973 Z
+    star: true
+    time: '00:01:20'
+    repetitions: 25
+    personal_best: true
+  - workout: Str 391
+    performed_at: 2020-04-19 00:57:55.732000112 Z
+    star: true
+    time: '00:10:39'
+  - workout: Side lunges technical 16
+    performed_at: 2020-04-19 00:45:54.345000028 Z
+    star: true
+    time: '00:00:54'
+  - workout: Bicycle crunches technical 20
+    performed_at: 2020-04-19 00:44:30.032999992 Z
+    star: true
+    time: '00:00:32'
+  - workout: Pre 002
+    performed_at: 2020-04-19 00:43:39.262000083 Z
+    star: false
+    time: '00:02:46'
+  - workout: Rec 001
+    performed_at: 2020-04-14 22:54:11.806000232 Z
+    star: false
+    time: '00:05:01'
+  - workout: Burpees standard 10
+    performed_at: 2020-04-14 22:47:50.609999895 Z
+    star: true
+    time: '00:00:33'
+    repetitions: 10
+    personal_best: true
+  - workout: Str 783
+    performed_at: 2020-04-14 22:44:39.782000064 Z
+    star: true
+    time: '00:10:09'
+  - workout: Str 157
+    performed_at: 2020-04-14 22:33:13.537999868 Z
+    star: true
+    time: '00:12:54'
+  - workout: Pushups technical 15
+    performed_at: 2020-04-14 22:19:40.393999814 Z
+    star: true
+    time: '00:00:37'
+  - workout: Pre 078
+    performed_at: 2020-04-14 22:17:43.462000131 Z
+    star: false
+    time: '00:04:57'
+  - workout: Rec 014
+    performed_at: 2020-04-13 23:33:51.851000070 Z
+    star: false
+    time: '00:04:00'
+  - workout: Knee wipers endurance 25
+    performed_at: 2020-04-13 23:27:13.512000083 Z
+    star: true
+    time: '00:02:11'
+    repetitions: 25
+    personal_best: true
+  - workout: Morpheus standard 5
+    performed_at: 2020-04-13 23:22:24.363000154 Z
+    star: true
+    time: '00:06:04'
+    personal_best: true
+  - workout: Hanging leg raises technical 15
+    performed_at: 2020-04-13 23:14:11.447000026 Z
+    star: true
+    time: '00:01:01'
+  - workout: Pre 078
+    performed_at: 2020-04-13 23:12:49.432999849 Z
+    star: false
+    time: '00:04:52'
+  - workout: Rec 015
+    performed_at: 2020-04-10 02:30:22.032000064 Z
+    star: false
+    time: '00:04:00'
+  - workout: Metis standard 1
+    performed_at: 2020-04-10 02:25:30.763000011 Z
+    star: true
+    time: '00:01:15'
+  - workout: Str 811
+    performed_at: 2020-04-10 02:21:43.378999948 Z
+    star: true
+    time: '00:17:45'
+  - workout: Burpees technical 10
+    performed_at: 2020-04-10 02:01:53.039000034 Z
+    star: true
+    time: '00:00:44'
+  - workout: Bicycle crunches technical 16
+    performed_at: 2020-04-10 02:00:39.667999982 Z
+    star: true
+    time: '00:00:32'
+  - workout: Pre 014
+    performed_at: 2020-04-10 01:59:27.523000001 Z
+    star: false
+    time: '00:05:41'
+  - workout: Rec 017
+    performed_at: 2020-04-05 23:03:37.875000000 Z
+    star: false
+    time: '00:04:00'
+  - workout: Knee pushups endurance 10
+    performed_at: 2020-04-05 22:55:52.491000175 Z
+    star: true
+    time: '00:00:24'
+    repetitions: 10
+    personal_best: true
+  - workout: Str 519
+    performed_at: 2020-04-05 22:54:51.647000074 Z
+    star: true
+    time: '00:16:09'
+  - workout: Side lunges technical 10
+    performed_at: 2020-04-05 22:37:08.895999908 Z
+    star: true
+    time: '00:00:36'
+  - workout: Sprawls technical 15
+    performed_at: 2020-04-05 22:35:27.811000108 Z
+    star: true
+    time: '00:00:45'
+  - workout: Pre 052
+    performed_at: 2020-04-05 22:34:17.664999961 Z
+    star: false
+    time: '00:04:24'
+  - workout: Rec 023
+    performed_at: 2020-04-04 23:41:13.864000082 Z
+    star: false
+    time: '00:05:00'
+  - workout: Squat jumps strength 10
+    performed_at: 2020-04-04 23:35:19.713999986 Z
+    star: true
+    time: '00:00:16'
+    repetitions: 10
+    personal_best: true
+  - workout: Str 296
+    performed_at: 2020-04-04 23:34:33.449999809 Z
+    star: true
+    time: '00:10:28'
+  - workout: Str 564
+    performed_at: 2020-04-04 23:22:44.203999996 Z
+    star: true
+    time: '00:16:21'
+  - workout: Jumping pullups technical 8
+    performed_at: 2020-04-04 23:06:00.624000072 Z
+    star: true
+    time: '00:00:21'
+  - workout: Pre 001
+    performed_at: 2020-04-04 23:05:20.143000125 Z
+    star: false
+    time: '00:04:14'
+  - workout: Rec 022
+    performed_at: 2020-04-01 22:03:59.176000118 Z
+    star: false
+    time: '00:04:00'
+  - workout: Amrap 042
+    performed_at: 2020-04-01 21:59:26.593999862 Z
+    star: true
+    time: '00:12:00'
+    repetitions: 159
+  - workout: Bicycle crunches technical 10
+    performed_at: 2020-04-01 21:44:32.721999883 Z
+    star: true
+    time: '00:00:46'
+  - workout: Pre 014
+    performed_at: 2020-04-01 21:42:22.263999938 Z
+    star: false
+    time: '00:06:16'
+  - workout: Rec 022
+    performed_at: 2020-03-30 22:33:30.723999977 Z
+    star: false
+    time: '00:04:00'
+  - workout: Amrap 049
+    performed_at: 2020-03-30 22:28:56.744999885 Z
+    star: true
+    time: '00:10:00'
+    repetitions: 210
+  - workout: Sprawls technical 10
+    performed_at: 2020-03-30 22:17:41.671999931 Z
+    star: true
+    time: '00:00:36'
+  - workout: Pre 052
+    performed_at: 2020-03-30 22:16:42.656999826 Z
+    star: false
+    time: '00:04:37'
+  - workout: Rec 021
+    performed_at: 2020-03-28 22:05:52.388000011 Z
+    star: false
+    time: '00:04:00'
+  - workout: Amrap 038
+    performed_at: 2020-03-28 22:01:02.475000143 Z
+    star: true
+    time: '00:10:13'
+    repetitions: 121
+  - workout: Hanging leg raises technical 15
+    performed_at: 2020-03-28 21:49:45.999000072 Z
+    star: true
+    time: '00:00:48'
+  - workout: Pre 052
+    performed_at: 2020-03-28 21:48:32.296000003 Z
+    star: false
+    time: '00:05:02'
+  - workout: Rec 016
+    performed_at: 2020-03-26 21:57:00.903000116 Z
+    star: false
+    time: '00:04:09'
+  - workout: Amrap 045
+    performed_at: 2020-03-26 21:52:13.819999933 Z
+    star: true
+    time: '00:15:00'
+    repetitions: 293
+  - workout: Jumping pullups technical 5
+    performed_at: 2020-03-26 21:36:26.888000011 Z
+    star: true
+    time: '00:00:26'
+  - workout: Pre 019
+    performed_at: 2020-03-26 21:35:46.039000034 Z
+    star: false
+    time: '00:03:06'
+  - workout: Rec 021
+    performed_at: 2020-03-25 22:26:30.963000059 Z
+    star: false
+    time: '00:04:00'
+  - workout: Amrap 047
+    performed_at: 2020-03-25 22:22:05.032000064 Z
+    star: true
+    time: '00:10:00'
+    repetitions: 158
+  - workout: Ground twists technical 20
+    performed_at: 2020-03-25 22:10:14.648000001 Z
+    star: true
+    time: '00:01:29'
+  - workout: Pre 002
+    performed_at: 2020-03-25 22:07:39.855999946 Z
+    star: false
+    time: '00:04:41'
+  - workout: Rec 022
+    performed_at: 2020-03-19 22:24:19.511000156 Z
+    star: false
+    time: '00:04:00'
+  - workout: Amrap 042
+    performed_at: 2020-03-19 22:19:59.668999910 Z
+    star: true
+    time: '00:12:00'
+    repetitions: 150
+  - workout: Ground supermans technical 10
+    performed_at: 2020-03-19 22:07:12.144999980 Z
+    star: true
+    time: '00:00:36'
+  - workout: Pre 019
+    performed_at: 2020-03-19 22:06:06.056999921 Z
+    star: false
+    time: '00:03:50'
+  - workout: Rec 021
+    performed_at: 2020-03-17 22:21:07.707000017 Z
+    star: false
+    time: '00:04:00'
+  - workout: Agon none 3
+    performed_at: 2020-03-17 22:14:15.569000005 Z
+    star: true
+    time: '00:05:07'
+    personal_best: true
+  - workout: Hanging leg raises technical 10
+    performed_at: 2020-03-17 22:07:57.993000030 Z
+    star: false
+    time: '00:00:54'
+  - workout: Pre 002
+    performed_at: 2020-03-17 22:06:11.506999969 Z
+    star: false
+    time: '00:03:36'
+  - workout: Hyperion endurance 5
+    performed_at: 2017-07-03 22:01:36.513999938 Z
+    star: true
+    time: '00:11:25'
+    personal_best: true
+  - workout: Athena standard 5
+    performed_at: 2017-06-26 21:54:05.390000104 Z
+    star: true
+    time: '00:08:07'
+    personal_best: true
+  - workout: Nyx endurance 3
+    performed_at: 2017-06-20 21:57:14.184000015 Z
+    star: true
+    time: '00:09:38'
+    personal_best: true
+  - workout: Nemesis endurance 5
+    performed_at: 2017-06-05 10:13:54.796000003 Z
+    star: true
+    time: '00:09:36'
+    personal_best: true
+  - workout: Persephone standard 2
+    performed_at: 2017-05-23 21:52:46.476000070 Z
+    star: false
+    time: '00:14:20'
+    personal_best: true
+  - workout: Lunges standard 25
+    performed_at: 2017-05-23 21:37:11.806000232 Z
+    star: true
+    time: '00:00:52'
+    repetitions: 25
+  - workout: Str 015
+    performed_at: 2017-05-21 21:53:15.398000240 Z
+    star: true
+    time: '00:09:21'
+  - workout: Pikes endurance 10
+    performed_at: 2017-05-21 21:41:51.983999967 Z
+    star: true
+    time: '00:00:55'
+    repetitions: 10
+  - workout: Prometheus standard 5
+    performed_at: 2017-05-17 21:55:33.299999952 Z
+    star: true
+    time: '00:18:21'
+    personal_best: true
+  - workout: Mountain climbers endurance 10
+    performed_at: 2017-05-17 21:34:57.980999946 Z
+    star: true
+    time: '00:00:07'
+    repetitions: 10
+    personal_best: true
+  - workout: Kentauros home endurance 1
+    performed_at: 2017-05-15 21:54:29.864000082 Z
+    star: false
+    time: '00:06:06'
+    personal_best: true
+  - workout: Str 013
+    performed_at: 2017-05-15 21:43:13.075000047 Z
+    star: false
+    time: '00:07:47'
+  - workout: Hera home endurance 1
+    performed_at: 2017-05-10 21:49:33.547000169 Z
+    star: false
+    time: '00:03:13'
+    personal_best: true
+  - workout: Con 011
+    performed_at: 2017-05-10 21:43:07.641999959 Z
+    star: false
+    time: '00:06:55'
+  - workout: Hermes home standard 4
+    performed_at: 2017-05-08 21:54:57.819999933 Z
+    star: false
+    time: '00:22:10'
+  - workout: Burpees standard 10
+    performed_at: 2017-05-08 21:29:02.505999803 Z
+    star: false
+    time: '00:00:33'
+    repetitions: 10
+  - workout: Venus standard 2
+    performed_at: 2017-05-04 22:01:52.263000011 Z
+    star: false
+    time: '00:16:08'
+    personal_best: true
+  - workout: Lunges standard 25
+    performed_at: 2017-05-04 21:43:36.449999809 Z
+    star: true
+    time: '00:00:02'
+    repetitions: 25
+    personal_best: true
+  - workout: Persephone standard 1
+    performed_at: 2017-05-02 21:54:05.395999908 Z
+    star: false
+    time: '00:10:30'
+  - workout: Con 013
+    performed_at: 2017-05-02 21:39:04.444999933 Z
+    star: false
+    time: '00:07:50'
+  - workout: Climbers standard 25
+    performed_at: 2017-04-19 21:17:09.328000068 Z
+    star: true
+    time: '00:00:23'
+    repetitions: 25
+    personal_best: true
+  - workout: Situps standard 25
+    performed_at: 2017-04-19 21:13:46.075000047 Z
+    star: true
+    time: '00:01:11'
+    repetitions: 25
+    personal_best: true
+  - workout: Pushups standard 25
+    performed_at: 2017-04-19 21:10:29.366000175 Z
+    star: true
+    time: '00:00:56'
+    repetitions: 25
+    personal_best: true
+  - workout: Metis standard 3
+    performed_at: 2016-06-20 09:31:28.596999883 Z
+    star: false
+    time: '00:07:36'
+    personal_best: true
+  - workout: Metis standard 9
+    performed_at: 2016-06-19 04:49:46.056999921 Z
+    star: false
+    time: '00:29:39'
+    personal_best: true
+  - workout: Metis standard 6
+    performed_at: 2016-06-16 09:28:10.726000070 Z
+    star: true
+    time: '00:21:13'
+    personal_best: true
+  - workout: Hermes home standard 2
+    performed_at: 2016-06-14 09:23:52.545999765 Z
+    star: true
+    time: '00:07:17'
+    personal_best: true
+  - workout: Kentauros home standard 6
+    performed_at: 2016-06-13 08:51:51.473000049 Z
+    star: false
+    time: '00:33:28'
+    personal_best: true
+  - workout: Metis standard 6
+    performed_at: 2016-05-29 09:03:45.756000041 Z
+    star: false
+    time: '00:00:45'
+  - workout: Metis standard 6
+    performed_at: 2016-05-29 09:01:40.294000148 Z
+    star: false
+    time: '00:22:49'
+  - workout: Hermes home standard 4
+    performed_at: 2016-05-28 07:01:18.320999860 Z
+    star: false
+    time: '00:18:44'
+    personal_best: true
+  - workout: Aphrodite standard 5
+    performed_at: 2016-05-26 10:07:22.039999961 Z
+    star: false
+    time: '00:36:43'
+    personal_best: true
+  - workout: Aphrodite standard 5
+    performed_at: 2016-05-23 10:25:07.132999897 Z
+    star: false
+    time: '00:40:08'
+  - workout: Metis strength 2
+    performed_at: 2016-05-16 10:27:03.971999883 Z
+    star: false
+    time: '00:14:01'
+    personal_best: true
+  - workout: Hermes home standard 4
+    performed_at: 2016-05-15 09:01:36.239000082 Z
+    star: false
+    time: '00:19:58'
+  - workout: Hermes home standard 2
+    performed_at: 2016-05-12 09:17:15.547000169 Z
+    star: false
+    time: '00:08:20'
+  - workout: Venus standard 4
+    performed_at: 2016-05-09 09:47:52.183000087 Z
+    star: false
+    time: '00:29:47'
+    personal_best: true
+  - workout: Venus standard 4
+    performed_at: 2016-04-25 08:50:03.292000055 Z
+    star: false
+    time: '00:30:56'
+  - workout: Kentauros home standard 6
+    performed_at: 2016-04-24 06:03:00.790000200 Z
+    star: false
+    time: '00:34:48'
+  - workout: Hermes home endurance 3
+    performed_at: 2016-04-19 09:45:40.092000007 Z
+    star: false
+    time: '00:10:08'
+    personal_best: true
+  - workout: Venus standard 3
+    performed_at: 2016-04-18 09:43:30.088999986 Z
+    star: false
+    time: '00:22:15'
+    personal_best: true
+  - workout: Venus endurance 4
+    performed_at: 2016-04-16 04:27:34.187999963 Z
+    star: false
+    time: '00:26:50'
+    personal_best: true
+  - workout: Morpheus standard 5
+    performed_at: 2016-04-11 09:05:06.816999912 Z
+    star: false
+    time: '00:05:38'
+  - workout: Hermes home endurance 4
+    performed_at: 2016-04-10 02:28:27.487999916 Z
+    star: false
+    time: '00:13:22'
+    personal_best: true
+  - workout: Aphrodite standard 3
+    performed_at: 2016-04-09 01:53:16.903000116 Z
+    star: false
+    time: '00:33:41'
+    personal_best: true
+  - workout: Venus standard 3
+    performed_at: 2016-04-07 09:28:53.789000034 Z
+    star: false
+    time: '00:25:19'
+  - workout: Morpheus standard 5
+    performed_at: 2016-04-06 09:44:10.375999927 Z
+    star: false
+    time: '00:06:24'
+  - workout: Morpheus standard 3
+    performed_at: 2016-04-04 09:04:15.481999874 Z
+    star: false
+    time: '00:05:26'
+    personal_best: true
+  - workout: Hermes home standard 2
+    performed_at: 2016-04-03 06:56:45.542999982 Z
+    star: false
+    time: '00:10:00'
+  - workout: Venus endurance 2
+    performed_at: 2016-04-02 02:26:01.888999938 Z
+    star: false
+    time: '00:13:30'
+    personal_best: true
+  - workout: Kentauros home standard 1
+    performed_at: 2016-03-31 07:46:32.281999826 Z
+    star: false
+    time: '00:08:49'
+    personal_best: true
+  - workout: Hermes home standard 3
+    performed_at: 2016-03-28 05:04:50.924999952 Z
+    star: false
+    time: '00:18:23'
+    personal_best: true
+  - workout: Metis endurance 6
+    performed_at: 2016-03-27 07:15:04.782999992 Z
+    star: false
+    time: '00:14:14'
+    personal_best: true
+  - workout: Hades home endurance 3
+    performed_at: 2016-03-22 09:32:54.526999950 Z
+    star: false
+    time: '00:39:16'
+    personal_best: true
+  - workout: Metis standard 3
+    performed_at: 2016-03-21 08:33:13.763000011 Z
+    star: false
+    time: '00:09:26'
+  - workout: Zeus endurance 2
+    performed_at: 2016-03-18 08:40:33.828000068 Z
+    star: false
+    time: '00:22:11'
+    personal_best: true
+  - workout: Hyperion endurance 5
+    performed_at: 2016-03-17 08:45:13.153999805 Z
+    star: false
+    time: '00:11:55'
+  - workout: Hyperion endurance 5
+    performed_at: 2016-03-15 08:05:04.891999959 Z
+    star: false
+    time: '00:13:28'
+  - workout: Metis standard 3
+    performed_at: 2016-03-14 05:02:59.929999828 Z
+    star: false
+    time: '00:12:36'
+  - workout: Metis endurance 1
+    performed_at: 2016-03-09 20:29:14.431999921 Z
+    star: false
+    time: '00:01:21'
+    personal_best: true
+  - workout: Morpheus standard 1
+    performed_at: 2016-03-08 20:22:45.661000013 Z
+    star: false
+    time: '00:01:12'
+    personal_best: true
+  - workout: Triton endurance 1
+    performed_at: 2016-03-08 08:03:55.980000019 Z
+    star: false
+    time: '00:05:30'
+    personal_best: true
+  - workout: Burpees standard 10
+    performed_at: 2016-03-05 04:11:33.126000165 Z
+    star: false
+    time: '00:00:52'
+    repetitions: 10
+  - workout: Pushups standard 10
+    performed_at: 2016-03-05 04:08:24.564999818 Z
+    star: false
+    time: '00:00:26'
+    repetitions: 10
+  - workout: Situps standard 25
+    performed_at: 2016-03-05 04:07:00.190999984 Z
+    star: false
+    time: '00:01:02'
+    repetitions: 25
+  - workout: Climbers standard 25
+    performed_at: 2016-03-03 20:09:31.761999845 Z
+    star: false
+    time: '00:00:58'
+    repetitions: 25
+  - workout: Situps standard 25
+    performed_at: 2016-03-03 20:05:57.331000089 Z
+    star: false
+    time: '00:01:09'
+    repetitions: 25
+  - workout: Pushups standard 25
+    performed_at: 2016-03-03 20:01:57.166000127 Z
+    star: false
+    time: '00:01:18'
+    repetitions: 25
+payment:
+  transactions:
+  - transaction_id: '710000518489666'
+    transaction_date: '2020-03-17T12:08:57.000Z'
+    type: Apple
+    refunded_at: 
+    amount: 54.98 AUD
+  - transaction_id: ch_1AQbrUFBURW3J4QXDVit8b2C
+    transaction_date: '2017-06-03T13:00:12.000Z'
+    type: Stripe
+    refunded_at: 
+    amount: 34.99 EUR
+  - transaction_id: '710000204708944'
+    transaction_date: '2017-04-29T20:59:06.000Z'
+    type: Apple
+    refunded_at: 
+    amount: 22.99 AUD
+  - transaction_id: ch_19tG4SFBURW3J4QXXC4cPEyo
+    transaction_date: '2017-03-03T13:03:44.000Z'
+    type: Stripe
+    refunded_at: 
+    amount: 34.99 EUR
+  - transaction_id: '710000187690595'
+    transaction_date: '2017-01-29T15:59:33.000Z'
+    type: Apple
+    refunded_at: 
+    amount: 22.99 AUD
+  - transaction_id: tran_818eee5c1c4186fb3ed874578d87
+    transaction_date: '2016-12-03T01:01:25.000Z'
+    type: Paymill
+    refunded_at: 
+    amount: 34.99 EUR
+  - transaction_id: '710000171243943'
+    transaction_date: '2016-10-29T14:59:12.000Z'
+    type: Apple
+    refunded_at: 
+    amount: 22.99 AUD
+  - transaction_id: '710000157531764'
+    transaction_date: '2016-07-29T14:59:12.000Z'
+    type: Apple
+    refunded_at: 
+    amount: 22.99 AUD
+  - transaction_id: '710000153100492'
+    transaction_date: '2016-06-29T20:59:08.000Z'
+    type: Apple
+    refunded_at: 
+    amount: 22.99 AUD
+user:
+  data:
+    :id: 710320
+    :first_name: Shahin
+    :last_name: Hoda
+    :birthday: '1989-05-17'
+    :email: shahin.hoda@gmail.com
+    :sanitized_email: shahinhoda@gmail.com
+    :time_zone: Australia/West
+    :emails_allowed: true
+    :locale: en
+    :gender: m
+    :weight: 76
+    :weight_unit: kg
+    :height: 169
+    :height_unit: cm
+    :measurement_system: metric
+    :personalized_marketing_consent: true
+    :personalized_marketing_consent_sdk: true
+    :created_at: '2014-03-18T13:42:10.000Z'
+    :updated_at: '2020-03-20T22:33:53.331Z'
+    :email_confirmed_at: '2014-03-18T13:42:41.814Z'
+    :about: ''
+    :location: ''
+    :terms_acceptance: 
+    :registration_country: 
+nutrition:
+  activities:
+    athlete_data:
+    - gender: m
+      weight: 72
+      weight_unit: kg
+      height: 170
+      height_unit: cm
+      date_of_birth: '1989-05-17'
+      created_at: '2017-04-18T11:09:19.626Z'
+      measurement_system: metric
+      country_code: 
+    - gender: m
+      weight: 70
+      weight_unit: kg
+      height: 170
+      height_unit: cm
+      date_of_birth: '1989-05-17'
+      created_at: '2016-06-05T11:03:16.451Z'
+      measurement_system: metric
+      country_code: 
+    cooked_meals:
+      coach_buckets: []
+      free_buckets: []
+    shoppinglist:
+      recipes: []
+      ingredients: []
+running:
+  trainings: []
+gym:
+  trainings:
+  - starred: true
+    points: 97.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '3296328'
+    created_at: 1500084012
+    type: exercise_challenge
+    name_href: https://api.freeletics.com/gym/static/texts#barbell_curls
+    body_focus: upper
+    handle: a2d47d1dc847cc4637bb6afa0edf6710ab456f43
+    technique_week: false
+    hell_week: false
+    volume: 50
+    time: 203
+    weight_level: 10.0
+  - starred: true
+    points: 391.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '3296322'
+    created_at: 1500083707
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 831
+    weight_ex1: 26.66667
+    weight_ex2: 20.0
+    real_weight_ex1: 20.0
+    real_weight_ex2: 15.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '3296271'
+    created_at: 1500082384
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1025
+    weight_ex1: 60.0
+    weight_ex2: 46.66667
+    real_weight_ex1: 45.0
+    real_weight_ex2: 35.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 192.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '3212118'
+    created_at: 1499034786
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#syn
+    body_focus: core
+    handle: e656e58f7f38774baae3447adc0118ab2df0bacb
+    technique_week: false
+    hell_week: false
+    time: 133
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 773.0
+    rating:
+    - 3
+    personal_best: true
+    current_personal_best: true
+    id: '3212103'
+    created_at: 1499034222
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#loki
+    body_focus: full
+    handle: a5b23f338648cb6f21e2cc1284e4d1b7b930ac97
+    technique_week: false
+    hell_week: false
+    time: 1018
+    repetitions: 2
+    weight_level: 10.0
+  - starred: true
+    points: 625.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '3212075'
+    created_at: 1499033103
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1120
+    weight_ex1: 60.0
+    weight_ex2: 56.66667
+    real_weight_ex1: 45.0
+    real_weight_ex2: 42.5
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 345.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '3196050'
+    created_at: 1498775257
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#mani
+    body_focus: core
+    handle: c29222e98de6437a383e8d946a9b202298e0aa3a
+    technique_week: false
+    hell_week: false
+    time: 331
+    repetitions: 1
+    weight_level: 2.5
+  - starred: true
+    points: 547.5
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '3196023'
+    created_at: 1498774805
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 763
+    weight_ex1: 33.33333
+    weight_ex2: 26.66667
+    real_weight_ex1: 25.0
+    real_weight_ex2: 20.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 2
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '3195966'
+    created_at: 1498773618
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 1052
+    weight_ex1: 56.66667
+    weight_ex2: 46.66667
+    real_weight_ex1: 42.5
+    real_weight_ex2: 35.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 600.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '3180706'
+    created_at: 1498601628
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#nott
+    body_focus: core
+    handle: d5e3bfd227045e7be0e898d999832937a38eeb52
+    technique_week: false
+    hell_week: false
+    time: 615
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 715.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '3180659'
+    created_at: 1498600803
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#borr
+    body_focus: upper
+    handle: fc03303b671fe62f9387b2143f42019d3f930822
+    technique_week: false
+    hell_week: false
+    time: 558
+    repetitions: 1
+    weight_level: 12.5
+  - starred: true
+    points: 625.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '3180627'
+    created_at: 1498600087
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1040
+    weight_ex1: 56.66667
+    weight_ex2: 53.33333
+    real_weight_ex1: 42.5
+    real_weight_ex2: 40.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 469.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '3163772'
+    created_at: 1498429750
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 806
+    weight_ex1: 26.66667
+    weight_ex2: 26.66667
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '3163742'
+    created_at: 1498428467
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1041
+    weight_ex1: 66.66666
+    weight_ex2: 53.33333
+    real_weight_ex1: 50.0
+    real_weight_ex2: 40.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 500.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '3147851'
+    created_at: 1498170274
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: true
+    hell_week: false
+    time: 526
+    weight_ex1: 57.14286
+    weight_ex2: 50.0
+    real_weight_ex1: 40.0
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 438.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '3124079'
+    created_at: 1497910875
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: true
+    hell_week: false
+    time: 501
+    weight_ex1: 35.71429
+    weight_ex2: 28.57143
+    real_weight_ex1: 25.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 438.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '3124025'
+    created_at: 1497909889
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: true
+    hell_week: false
+    time: 597
+    weight_ex1: 67.85715
+    weight_ex2: 57.14286
+    real_weight_ex1: 47.5
+    real_weight_ex2: 40.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 563.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '3115819'
+    created_at: 1497823398
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc2
+    body_focus: lower
+    handle: 8fff7bc35786ab87e07f430e135190bd71434a4d
+    technique_week: true
+    hell_week: false
+    time: 585
+    weight_ex1: 28.57143
+    weight_ex2: 28.57143
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 179.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2952406'
+    created_at: 1495751334
+    type: exercise_challenge
+    name_href: https://api.freeletics.com/gym/static/texts#front_squat
+    body_focus: lower
+    handle: 577a1a61a24c408355030da9da3e2d2117d9da8b
+    technique_week: false
+    hell_week: false
+    volume: 50
+    time: 100
+    weight_level: 12.5
+  - starred: true
+    points: 685.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2952394'
+    created_at: 1495751006
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#magni
+    body_focus: upper
+    handle: 429e6f53896d9ba0404e4b74bbcc5b7a763a3562
+    technique_week: false
+    hell_week: false
+    time: 829
+    repetitions: 1
+    weight_level: 12.5
+  - starred: false
+    points: 450.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2952336'
+    created_at: 1495749864
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1104
+    weight_ex1: 58.82353
+    weight_ex2: 47.05882
+    real_weight_ex1: 50.0
+    real_weight_ex2: 40.0
+    repetitions: 4
+    percent_of_one_rm: 0.85
+    work_sets: 5
+  - starred: true
+    points: 345.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '2945340'
+    created_at: 1495664730
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#mani
+    body_focus: core
+    handle: c29222e98de6437a383e8d946a9b202298e0aa3a
+    technique_week: false
+    hell_week: false
+    time: 340
+    repetitions: 1
+    weight_level: 2.5
+  - starred: false
+    points: 281.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2945302'
+    created_at: 1495664056
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 776
+    weight_ex1: 35.29412
+    weight_ex2: 35.29412
+    real_weight_ex1: 30.0
+    real_weight_ex2: 30.0
+    repetitions: 4
+    percent_of_one_rm: 0.85
+    work_sets: 5
+  - starred: false
+    points: 492.5
+    rating:
+    - 2
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2945237'
+    created_at: 1495662731
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 1108
+    weight_ex1: 58.82353
+    weight_ex2: 52.94117
+    real_weight_ex1: 50.0
+    real_weight_ex2: 45.0
+    repetitions: 4
+    percent_of_one_rm: 0.85
+    work_sets: 5
+  - starred: true
+    points: 495.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2928145'
+    created_at: 1495492223
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#skadi
+    body_focus: core
+    handle: a31896408adabc897b5725682afdff56cb743d0f
+    technique_week: false
+    hell_week: false
+    time: 432
+    repetitions: 1
+    weight_level: 0.0
+  - starred: false
+    points: 492.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2928110'
+    created_at: 1495491618
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 743
+    weight_ex1: 41.17647
+    weight_ex2: 35.29412
+    real_weight_ex1: 35.0
+    real_weight_ex2: 30.0
+    repetitions: 4
+    percent_of_one_rm: 0.85
+    work_sets: 5
+  - starred: false
+    points: 492.5
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2928010'
+    created_at: 1495490141
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1083
+    weight_ex1: 70.58823
+    weight_ex2: 58.82353
+    real_weight_ex1: 60.0
+    real_weight_ex2: 50.0
+    repetitions: 4
+    percent_of_one_rm: 0.85
+    work_sets: 5
+  - starred: true
+    points: 656.0
+    rating:
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2901116'
+    created_at: 1495146335
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#vali
+    body_focus: full
+    handle: 07e87d161603bad88c84f40d1bbebd1bb5b192c1
+    technique_week: false
+    hell_week: false
+    time: 1101
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2901038'
+    created_at: 1495144601
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc3
+    body_focus: lower
+    handle: ef17d1184daf154481a36235876153a4ff63cdee
+    technique_week: false
+    hell_week: false
+    time: 595
+    weight_ex1: 50.0
+    weight_ex2: 28.57143
+    real_weight_ex1: 35.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 281.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2884225'
+    created_at: 1494973587
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#mani
+    body_focus: core
+    handle: c29222e98de6437a383e8d946a9b202298e0aa3a
+    technique_week: false
+    hell_week: false
+    time: 325
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 468.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2884183'
+    created_at: 1494973128
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 847
+    weight_ex1: 31.25
+    weight_ex2: 31.25
+    real_weight_ex1: 25.0
+    real_weight_ex2: 25.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: false
+    points: 546.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2884111'
+    created_at: 1494971672
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1067
+    weight_ex1: 68.75
+    weight_ex2: 56.25
+    real_weight_ex1: 55.0
+    real_weight_ex2: 45.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 843.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2865842'
+    created_at: 1494800318
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#freyja
+    body_focus: lower
+    handle: 43b2e2efb5a40d6a10f0daedb31a5ebc98835e59
+    technique_week: false
+    hell_week: false
+    time: 1214
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 625.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2865793'
+    created_at: 1494798896
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1049
+    weight_ex1: 43.75
+    weight_ex2: 37.5
+    real_weight_ex1: 35.0
+    real_weight_ex2: 30.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 655.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2848660'
+    created_at: 1494559378
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 1070
+    weight_ex1: 53.125
+    weight_ex2: 50.0
+    real_weight_ex1: 42.5
+    real_weight_ex2: 40.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 75.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '2847941'
+    created_at: 1494541597
+    type: exercise_challenge
+    name_href: https://api.freeletics.com/gym/static/texts#plate_twists
+    body_focus: upper
+    handle: 4499c45e1d654085a63b5b87237d0fd37d5f4055
+    technique_week: false
+    hell_week: false
+    volume: 50
+    time: 35
+    weight_level: 0.0
+  - starred: true
+    points: 468.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '2847931'
+    created_at: 1494541441
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 801
+    weight_ex1: 31.25
+    weight_ex2: 31.25
+    real_weight_ex1: 25.0
+    real_weight_ex2: 25.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 527.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2830798'
+    created_at: 1494368124
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#dagur
+    body_focus: lower
+    handle: 6e6f073dee8457369ece61c56fbd510b6df8f036
+    technique_week: false
+    hell_week: false
+    time: 514
+    repetitions: 1
+    weight_level: 10.0
+  - starred: false
+    points: 412.5
+    rating:
+    - 3
+    personal_best: false
+    current_personal_best: false
+    id: '2810650'
+    created_at: 1494196171
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#skadi
+    body_focus: core
+    handle: a31896408adabc897b5725682afdff56cb743d0f
+    technique_week: false
+    hell_week: false
+    time: 606
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 546.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2810637'
+    created_at: 1494195469
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 756
+    weight_ex1: 31.25
+    weight_ex2: 31.25
+    real_weight_ex1: 25.0
+    real_weight_ex2: 25.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 655.0
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2810602'
+    created_at: 1494194253
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1106
+    weight_ex1: 59.375
+    weight_ex2: 56.25
+    real_weight_ex1: 47.5
+    real_weight_ex2: 45.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 600.0
+    rating:
+    - 3
+    personal_best: true
+    current_personal_best: false
+    id: '2783632'
+    created_at: 1493850347
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#nott
+    body_focus: core
+    handle: d5e3bfd227045e7be0e898d999832937a38eeb52
+    technique_week: false
+    hell_week: false
+    time: 764
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 391.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2783581'
+    created_at: 1493849338
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 803
+    weight_ex1: 26.66667
+    weight_ex2: 23.33333
+    real_weight_ex1: 20.0
+    real_weight_ex2: 17.5
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 2
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '2783526'
+    created_at: 1493847988
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1093
+    weight_ex1: 60.0
+    weight_ex2: 53.33333
+    real_weight_ex1: 45.0
+    real_weight_ex2: 40.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 438.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2684405'
+    created_at: 1492726317
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: true
+    hell_week: false
+    time: 420
+    weight_ex1: 28.57143
+    weight_ex2: 28.57143
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 438.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2684372'
+    created_at: 1492725536
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: true
+    hell_week: false
+    time: 598
+    weight_ex1: 46.42857
+    weight_ex2: 35.71429
+    real_weight_ex1: 32.5
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 507.5
+    rating:
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2666989'
+    created_at: 1492554343
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#vor
+    body_focus: upper
+    handle: 8e4fcaa39686fdc517cf8f84a4213f7a9de7e9dd
+    technique_week: true
+    hell_week: false
+    time: 976
+    repetitions: 1
+    weight_level: 10.0
+  - starred: false
+    points: 500.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2666927'
+    created_at: 1492553214
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: true
+    hell_week: false
+    time: 585
+    weight_ex1: 46.42857
+    weight_ex2: 39.28571
+    real_weight_ex1: 32.5
+    real_weight_ex2: 27.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 547.5
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2510913'
+    created_at: 1490823102
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 768
+    weight_ex1: 26.66667
+    weight_ex2: 26.66667
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2510829'
+    created_at: 1490821862
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 579
+    weight_ex1: 57.14286
+    weight_ex2: 50.0
+    real_weight_ex1: 40.0
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 253.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '2408941'
+    created_at: 1489803437
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#sif
+    body_focus: upper
+    handle: 2fad2d79e314b25c4485f084e39bffb8b7d78c08
+    technique_week: false
+    hell_week: false
+    time: 281
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 391.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2408930'
+    created_at: 1489803039
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 854
+    weight_ex1: 23.33333
+    weight_ex2: 20.0
+    real_weight_ex1: 17.5
+    real_weight_ex2: 15.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2408898'
+    created_at: 1489802132
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 984
+    weight_ex1: 56.66667
+    weight_ex2: 46.66667
+    real_weight_ex1: 42.5
+    real_weight_ex2: 35.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2390577'
+    created_at: 1489612814
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 818
+    weight_ex1: 21.42857
+    weight_ex2: 21.42857
+    real_weight_ex1: 15.0
+    real_weight_ex2: 15.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2390462'
+    created_at: 1489611672
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 1061
+    weight_ex1: 42.85714
+    weight_ex2: 35.71429
+    real_weight_ex1: 30.0
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 412.5
+    rating:
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2297552'
+    created_at: 1488749581
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#skadi
+    body_focus: core
+    handle: a31896408adabc897b5725682afdff56cb743d0f
+    technique_week: false
+    hell_week: false
+    time: 1072
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 391.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2297481'
+    created_at: 1488748308
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 809
+    weight_ex1: 21.42857
+    weight_ex2: 21.42857
+    real_weight_ex1: 15.0
+    real_weight_ex2: 15.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 2
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2297404'
+    created_at: 1488747139
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1164
+    weight_ex1: 57.14286
+    weight_ex2: 42.85714
+    real_weight_ex1: 40.0
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 500.0
+    rating:
+    - 0
+    personal_best: false
+    current_personal_best: false
+    id: '2291897'
+    created_at: 1488686442
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#nott
+    body_focus: core
+    handle: d5e3bfd227045e7be0e898d999832937a38eeb52
+    technique_week: false
+    hell_week: false
+    time: 1416
+    repetitions: 1
+    weight_level: 0.0
+  - starred: false
+    points: 450.0
+    rating:
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2291882'
+    created_at: 1488684971
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder1500
+    body_focus: full
+    handle: 3a9b73f217ba69053b019c5aab16205835a1abae
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1378
+  - starred: true
+    points: 144.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2275841'
+    created_at: 1488488393
+    type: exercise_challenge
+    name_href: https://api.freeletics.com/gym/static/texts#incline_bench
+    body_focus: upper
+    handle: 2fc2c65e731b8c7f7d307f72499d65df2368c017
+    technique_week: false
+    hell_week: false
+    volume: 50
+    time: 181
+    weight_level: 17.5
+  - starred: true
+    points: 547.5
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2275812'
+    created_at: 1488488143
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 792
+    weight_ex1: 21.42857
+    weight_ex2: 21.42857
+    real_weight_ex1: 15.0
+    real_weight_ex2: 15.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2275635'
+    created_at: 1488486939
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 484
+    weight_ex1: 53.57143
+    weight_ex2: 42.85714
+    real_weight_ex1: 37.5
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 625.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2257046'
+    created_at: 1488316907
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1143
+    weight_ex1: 42.85714
+    weight_ex2: 39.28571
+    real_weight_ex1: 30.0
+    real_weight_ex2: 27.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 412.5
+    rating:
+    - 3
+    personal_best: false
+    current_personal_best: false
+    id: '2237349'
+    created_at: 1488144802
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#skadi
+    body_focus: core
+    handle: a31896408adabc897b5725682afdff56cb743d0f
+    technique_week: false
+    hell_week: false
+    time: 638
+    repetitions: 1
+    weight_level: 0.0
+  - starred: false
+    points: 313.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2237312'
+    created_at: 1488144026
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 905
+    weight_ex1: 21.42857
+    weight_ex2: 21.42857
+    real_weight_ex1: 15.0
+    real_weight_ex2: 15.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2237272'
+    created_at: 1488142840
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1051
+    weight_ex1: 50.0
+    weight_ex2: 35.71429
+    real_weight_ex1: 35.0
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 62.5
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '2232287'
+    created_at: 1488091221
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#interval100
+    body_focus: full
+    handle: a998f0a412408fab428a91262cb612be904d53a8
+    technique_week: false
+    hell_week: false
+    repetitions: 3
+    time: 739
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2232273'
+    created_at: 1488090452
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc3
+    body_focus: lower
+    handle: ef17d1184daf154481a36235876153a4ff63cdee
+    technique_week: false
+    hell_week: false
+    time: 489
+    weight_ex1: 42.85714
+    weight_ex2: 21.42857
+    real_weight_ex1: 30.0
+    real_weight_ex2: 15.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 702.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '2216058'
+    created_at: 1487884954
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#borr
+    body_focus: upper
+    handle: fc03303b671fe62f9387b2143f42019d3f930822
+    technique_week: false
+    hell_week: false
+    time: 568
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2206916'
+    created_at: 1487798727
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 725
+    weight_ex1: 20.0
+    weight_ex2: 20.0
+    real_weight_ex1: 15.0
+    real_weight_ex2: 15.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2206800'
+    created_at: 1487797688
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 1055
+    weight_ex1: 40.0
+    weight_ex2: 26.66667
+    real_weight_ex1: 30.0
+    real_weight_ex2: 20.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 150.0
+    rating:
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2189410'
+    created_at: 1487669975
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder500
+    body_focus: full
+    handle: 1246d975cbbcc5ce1abb9f6f930e96e4448366aa
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 671
+  - starred: false
+    points: 439.0
+    rating:
+    - 3
+    personal_best: true
+    current_personal_best: false
+    id: '2185917'
+    created_at: 1487625902
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#dagur
+    body_focus: lower
+    handle: 6e6f073dee8457369ece61c56fbd510b6df8f036
+    technique_week: false
+    hell_week: false
+    time: 892
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 625.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '2185793'
+    created_at: 1487624870
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1063
+    weight_ex1: 40.0
+    weight_ex2: 40.0
+    real_weight_ex1: 30.0
+    real_weight_ex2: 30.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 391.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '2175475'
+    created_at: 1487539138
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 726
+    weight_ex1: 20.0
+    weight_ex2: 20.0
+    real_weight_ex1: 15.0
+    real_weight_ex2: 15.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 0
+    - 0
+    personal_best: false
+    current_personal_best: false
+    id: '2175437'
+    created_at: 1487538287
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 969
+    weight_ex1: 40.0
+    weight_ex2: 26.66667
+    real_weight_ex1: 30.0
+    real_weight_ex2: 20.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 383.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1645251'
+    created_at: 1481574930
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#syn
+    body_focus: core
+    handle: e656e58f7f38774baae3447adc0118ab2df0bacb
+    technique_week: true
+    hell_week: false
+    time: 512
+    repetitions: 2
+    weight_level: 0.0
+  - starred: false
+    points: 563.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '1645162'
+    created_at: 1481574358
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc2
+    body_focus: lower
+    handle: 8fff7bc35786ab87e07f430e135190bd71434a4d
+    technique_week: true
+    hell_week: false
+    time: 593
+    weight_ex1: 57.14286
+    weight_ex2: 50.0
+    real_weight_ex1: 40.0
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 215.0
+    rating:
+    - 3
+    personal_best: true
+    current_personal_best: true
+    id: '1639180'
+    created_at: 1481529015
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#sif
+    body_focus: upper
+    handle: 2fad2d79e314b25c4485f084e39bffb8b7d78c08
+    technique_week: false
+    hell_week: true
+    time: 12
+    repetitions: 1
+    weight_level: 12.5
+  - starred: true
+    points: 657.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1637757'
+    created_at: 1481491242
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: true
+    time: 819
+    weight_ex1: 28.57143
+    weight_ex2: 28.57143
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 2
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '1637695'
+    created_at: 1481489770
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: true
+    time: 1047
+    weight_ex1: 60.71429
+    weight_ex2: 46.42857
+    real_weight_ex1: 42.5
+    real_weight_ex2: 32.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 845.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1637622'
+    created_at: 1481488045
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc3
+    body_focus: lower
+    handle: ef17d1184daf154481a36235876153a4ff63cdee
+    technique_week: false
+    hell_week: true
+    time: 1160
+    weight_ex1: 60.71429
+    weight_ex2: 42.85714
+    real_weight_ex1: 42.5
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 495.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '1599194'
+    created_at: 1480973776
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#skadi
+    body_focus: core
+    handle: a31896408adabc897b5725682afdff56cb743d0f
+    technique_week: false
+    hell_week: true
+    time: 962
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 469.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1599086'
+    created_at: 1480972689
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: true
+    time: 826
+    weight_ex1: 28.57143
+    weight_ex2: 28.57143
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '1598913'
+    created_at: 1480971307
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: true
+    time: 823
+    weight_ex1: 28.57143
+    weight_ex2: 28.57143
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 845.0
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1598746'
+    created_at: 1480970026
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc2
+    body_focus: lower
+    handle: 8fff7bc35786ab87e07f430e135190bd71434a4d
+    technique_week: false
+    hell_week: true
+    time: 1082
+    weight_ex1: 53.57143
+    weight_ex2: 50.0
+    real_weight_ex1: 37.5
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 600.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '1591145'
+    created_at: 1480887985
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#nott
+    body_focus: core
+    handle: d5e3bfd227045e7be0e898d999832937a38eeb52
+    technique_week: false
+    hell_week: true
+    time: 1150
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 469.0
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '1591085'
+    created_at: 1480886630
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: true
+    time: 836
+    weight_ex1: 25.0
+    weight_ex2: 28.57143
+    real_weight_ex1: 17.5
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1591033'
+    created_at: 1480885269
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: true
+    time: 1038
+    weight_ex1: 60.71429
+    weight_ex2: 46.42857
+    real_weight_ex1: 42.5
+    real_weight_ex2: 32.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 625.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1590944'
+    created_at: 1480883608
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: true
+    time: 1069
+    weight_ex1: 67.85715
+    weight_ex2: 50.0
+    real_weight_ex1: 47.5
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 321.0
+    rating:
+    - 3
+    personal_best: true
+    current_personal_best: true
+    id: '1575332'
+    created_at: 1480651152
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#loki
+    body_focus: full
+    handle: a5b23f338648cb6f21e2cc1284e4d1b7b930ac97
+    technique_week: false
+    hell_week: false
+    time: 6
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 500.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '1574415'
+    created_at: 1480628110
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#nott
+    body_focus: core
+    handle: d5e3bfd227045e7be0e898d999832937a38eeb52
+    technique_week: false
+    hell_week: false
+    time: 1223
+    repetitions: 1
+    weight_level: 0.0
+  - starred: false
+    points: 300.0
+    rating:
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '1574307'
+    created_at: 1480626684
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder1000
+    body_focus: full
+    handle: 542e64a07c9e7fd3d10f06150a97a3d790f21db3
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1242
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1574161'
+    created_at: 1480625285
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc2
+    body_focus: lower
+    handle: 8fff7bc35786ab87e07f430e135190bd71434a4d
+    technique_week: false
+    hell_week: false
+    time: 618
+    weight_ex1: 50.0
+    weight_ex2: 50.0
+    real_weight_ex1: 35.0
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 547.5
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1566941'
+    created_at: 1480539639
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 799
+    weight_ex1: 28.57143
+    weight_ex2: 28.57143
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 2
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1566812'
+    created_at: 1480538488
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 1068
+    weight_ex1: 50.0
+    weight_ex2: 42.85714
+    real_weight_ex1: 35.0
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 562.5
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1525993'
+    created_at: 1480022734
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder1500
+    body_focus: full
+    handle: 3a9b73f217ba69053b019c5aab16205835a1abae
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1160
+  - starred: false
+    points: 625.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1525835'
+    created_at: 1480020852
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1216
+    weight_ex1: 67.85715
+    weight_ex2: 50.0
+    real_weight_ex1: 47.5
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 391.0
+    rating:
+    - 3
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1493642'
+    created_at: 1479675898
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 840
+    weight_ex1: 28.57143
+    weight_ex2: 28.57143
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '1493578'
+    created_at: 1479674522
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1045
+    weight_ex1: 57.14286
+    weight_ex2: 42.85714
+    real_weight_ex1: 40.0
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 372.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1475800'
+    created_at: 1479418013
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#nanna
+    body_focus: full
+    handle: e30702d1a9230524a0643e825dc8d413c56da546
+    technique_week: false
+    hell_week: false
+    time: 486
+    repetitions: 1
+    weight_level: 15.0
+  - starred: false
+    points: 500.0
+    rating:
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '1475719'
+    created_at: 1479417234
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#interval1000
+    body_focus: full
+    handle: 44bcaa9de8d103c5498e0aa61c173b5369767607
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1784
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1475516'
+    created_at: 1479415211
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc3
+    body_focus: lower
+    handle: ef17d1184daf154481a36235876153a4ff63cdee
+    technique_week: false
+    hell_week: false
+    time: 611
+    weight_ex1: 57.14286
+    weight_ex2: 42.85714
+    real_weight_ex1: 40.0
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 412.5
+    rating:
+    - 3
+    personal_best: false
+    current_personal_best: false
+    id: '1461751'
+    created_at: 1479283080
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#skadi
+    body_focus: core
+    handle: a31896408adabc897b5725682afdff56cb743d0f
+    technique_week: false
+    hell_week: false
+    time: 809
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 657.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1451133'
+    created_at: 1479158880
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 804
+    weight_ex1: 33.33333
+    weight_ex2: 33.33333
+    real_weight_ex1: 25.0
+    real_weight_ex2: 25.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '1451005'
+    created_at: 1479157693
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 1044
+    weight_ex1: 50.0
+    weight_ex2: 40.0
+    real_weight_ex1: 37.5
+    real_weight_ex2: 30.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 507.0
+    rating:
+    - 0
+    personal_best: true
+    current_personal_best: true
+    id: '1400694'
+    created_at: 1478553247
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#sif
+    body_focus: upper
+    handle: 2fad2d79e314b25c4485f084e39bffb8b7d78c08
+    technique_week: false
+    hell_week: false
+    time: 582
+    repetitions: 2
+    weight_level: 10.0
+  - starred: true
+    points: 750.0
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1400598'
+    created_at: 1478552559
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1143
+    weight_ex1: 66.66666
+    weight_ex2: 53.33333
+    real_weight_ex1: 50.0
+    real_weight_ex2: 40.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 281.0
+    rating:
+    - 3
+    personal_best: true
+    current_personal_best: false
+    id: '1373455'
+    created_at: 1478208384
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#mani
+    body_focus: core
+    handle: c29222e98de6437a383e8d946a9b202298e0aa3a
+    technique_week: false
+    hell_week: false
+    time: 10
+    repetitions: 1
+    weight_level: 0.0
+  - starred: false
+    points: 312.5
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1373448'
+    created_at: 1478208330
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#interval500
+    body_focus: full
+    handle: f3599712395dfe1eb934cfd4f60f37878bad41a8
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1134
+  - starred: true
+    points: 750.0
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '1373331'
+    created_at: 1478207095
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1058
+    weight_ex1: 63.33333
+    weight_ex2: 53.33333
+    real_weight_ex1: 47.5
+    real_weight_ex2: 40.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 400.0
+    rating:
+    - 3
+    personal_best: false
+    current_personal_best: false
+    id: '1368404'
+    created_at: 1478170698
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#nott
+    body_focus: core
+    handle: d5e3bfd227045e7be0e898d999832937a38eeb52
+    technique_week: false
+    hell_week: false
+    time: 12
+    repetitions: 1
+    weight_level: 0.0
+  - starred: false
+    points: 702.5
+    rating:
+    - 3
+    - 3
+    personal_best: false
+    current_personal_best: false
+    id: '1356843'
+    created_at: 1478036215
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc3
+    body_focus: upper
+    handle: 5b61d11bbc6f27c38c434132935ace2acb0060a6
+    technique_week: false
+    hell_week: false
+    time: 1076
+    weight_ex1: 0.0
+    weight_ex2: 0.0
+    real_weight_ex1: 0.0
+    real_weight_ex2: 0.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '1356764'
+    created_at: 1478034837
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1050
+    weight_ex1: 60.0
+    weight_ex2: 46.66667
+    real_weight_ex1: 45.0
+    real_weight_ex2: 35.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 300.0
+    rating:
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '1298896'
+    created_at: 1477343988
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder1000
+    body_focus: full
+    handle: 542e64a07c9e7fd3d10f06150a97a3d790f21db3
+    technique_week: true
+    hell_week: false
+    repetitions: 1
+    time: 1164
+  - starred: false
+    points: 563.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1298817'
+    created_at: 1477342713
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc2
+    body_focus: lower
+    handle: 8fff7bc35786ab87e07f430e135190bd71434a4d
+    technique_week: true
+    hell_week: false
+    time: 600
+    weight_ex1: 50.0
+    weight_ex2: 50.0
+    real_weight_ex1: 35.0
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 438.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1290482'
+    created_at: 1477258203
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: true
+    hell_week: false
+    time: 457
+    weight_ex1: 35.71429
+    weight_ex2: 35.71429
+    real_weight_ex1: 25.0
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 438.0
+    rating:
+    - 2
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '1290450'
+    created_at: 1477257292
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: true
+    hell_week: false
+    time: 583
+    weight_ex1: 50.0
+    weight_ex2: 42.85714
+    real_weight_ex1: 35.0
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 729.0
+    rating:
+    - 3
+    personal_best: true
+    current_personal_best: true
+    id: '1256551'
+    created_at: 1476825053
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#freyja
+    body_focus: lower
+    handle: 43b2e2efb5a40d6a10f0daedb31a5ebc98835e59
+    technique_week: true
+    hell_week: false
+    time: 1307
+    repetitions: 1
+    weight_level: 15.0
+  - starred: false
+    points: 500.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1256458'
+    created_at: 1476823469
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: true
+    hell_week: false
+    time: 657
+    weight_ex1: 64.28571
+    weight_ex2: 53.57143
+    real_weight_ex1: 45.0
+    real_weight_ex2: 37.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 313.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1247884'
+    created_at: 1476738120
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: true
+    hell_week: false
+    time: 530
+    weight_ex1: 35.71429
+    weight_ex2: 32.14286
+    real_weight_ex1: 25.0
+    real_weight_ex2: 22.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 438.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1247800'
+    created_at: 1476737070
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: true
+    hell_week: false
+    time: 577
+    weight_ex1: 64.28571
+    weight_ex2: 50.0
+    real_weight_ex1: 45.0
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 112.5
+    rating:
+    - 0
+    personal_best: true
+    current_personal_best: true
+    id: '1239593'
+    created_at: 1476652935
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#pyramid100
+    body_focus: full
+    handle: 1d38b56e8af43fbb194d23733f9ac73eb855a97b
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 322
+  - starred: true
+    points: 672.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1239577'
+    created_at: 1476652503
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#magni
+    body_focus: upper
+    handle: 429e6f53896d9ba0404e4b74bbcc5b7a763a3562
+    technique_week: false
+    hell_week: false
+    time: 899
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1239506'
+    created_at: 1476650928
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc2
+    body_focus: lower
+    handle: 8fff7bc35786ab87e07f430e135190bd71434a4d
+    technique_week: false
+    hell_week: false
+    time: 612
+    weight_ex1: 46.42857
+    weight_ex2: 46.42857
+    real_weight_ex1: 32.5
+    real_weight_ex2: 32.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '1214311'
+    created_at: 1476308336
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 492.5
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1214266'
+    created_at: 1476307415
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 795
+    weight_ex1: 35.29412
+    weight_ex2: 35.29412
+    real_weight_ex1: 30.0
+    real_weight_ex2: 30.0
+    repetitions: 4
+    percent_of_one_rm: 0.85
+    work_sets: 5
+  - starred: true
+    points: 492.5
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1214207'
+    created_at: 1476306068
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 1038
+    weight_ex1: 50.0
+    weight_ex2: 41.17647
+    real_weight_ex1: 42.5
+    real_weight_ex2: 35.0
+    repetitions: 4
+    percent_of_one_rm: 0.85
+    work_sets: 5
+  - starred: false
+    points: 562.5
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '1206183'
+    created_at: 1476221757
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder1500
+    body_focus: full
+    handle: 3a9b73f217ba69053b019c5aab16205835a1abae
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1483
+  - starred: true
+    points: 562.5
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1206114'
+    created_at: 1476220205
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1040
+    weight_ex1: 61.76471
+    weight_ex2: 52.94117
+    real_weight_ex1: 52.5
+    real_weight_ex2: 45.0
+    repetitions: 4
+    percent_of_one_rm: 0.85
+    work_sets: 5
+  - starred: true
+    points: 160.0
+    rating:
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '1189409'
+    created_at: 1476047967
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#syn
+    body_focus: core
+    handle: e656e58f7f38774baae3447adc0118ab2df0bacb
+    technique_week: false
+    hell_week: false
+    time: 234
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 351.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1189400'
+    created_at: 1476047680
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 814
+    weight_ex1: 35.29412
+    weight_ex2: 29.41176
+    real_weight_ex1: 30.0
+    real_weight_ex2: 25.0
+    repetitions: 4
+    percent_of_one_rm: 0.85
+    work_sets: 5
+  - starred: true
+    points: 492.5
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1189336'
+    created_at: 1476046233
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1017
+    weight_ex1: 64.70588
+    weight_ex2: 52.94117
+    real_weight_ex1: 55.0
+    real_weight_ex2: 45.0
+    repetitions: 4
+    percent_of_one_rm: 0.85
+    work_sets: 5
+  - starred: false
+    points: 412.5
+    rating:
+    - 3
+    personal_best: false
+    current_personal_best: false
+    id: '1139164'
+    created_at: 1475450181
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#skadi
+    body_focus: core
+    handle: a31896408adabc897b5725682afdff56cb743d0f
+    technique_week: false
+    hell_week: false
+    time: 7
+    repetitions: 1
+    weight_level: 0.0
+  - starred: false
+    points: 562.5
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1139003'
+    created_at: 1475443024
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#pyramid500
+    body_focus: full
+    handle: f34648a4a1eb604be9ca07dcfee52b04f2dc0edb
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1575
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1138926'
+    created_at: 1475441284
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc3
+    body_focus: lower
+    handle: ef17d1184daf154481a36235876153a4ff63cdee
+    technique_week: false
+    hell_week: false
+    time: 625
+    weight_ex1: 53.57143
+    weight_ex2: 42.85714
+    real_weight_ex1: 37.5
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 702.5
+    rating:
+    - 3
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1129915'
+    created_at: 1475302231
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc3
+    body_focus: upper
+    handle: 5b61d11bbc6f27c38c434132935ace2acb0060a6
+    technique_week: false
+    hell_week: false
+    time: 1105
+    weight_ex1: 0.0
+    weight_ex2: 0.0
+    real_weight_ex1: 0.0
+    real_weight_ex2: 0.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 2
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1129879'
+    created_at: 1475300761
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 585
+    weight_ex1: 67.85715
+    weight_ex2: 50.0
+    real_weight_ex1: 47.5
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 625.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1107149'
+    created_at: 1475015245
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#interval1000
+    body_focus: full
+    handle: 44bcaa9de8d103c5498e0aa61c173b5369767607
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1749
+  - starred: true
+    points: 625.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1107055'
+    created_at: 1475013408
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1101
+    weight_ex1: 59.375
+    weight_ex2: 50.0
+    real_weight_ex1: 47.5
+    real_weight_ex2: 40.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 160.0
+    rating:
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '1090161'
+    created_at: 1474843210
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#syn
+    body_focus: core
+    handle: e656e58f7f38774baae3447adc0118ab2df0bacb
+    technique_week: false
+    hell_week: false
+    time: 273
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 546.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1090150'
+    created_at: 1474842693
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 786
+    weight_ex1: 34.375
+    weight_ex2: 31.25
+    real_weight_ex1: 27.5
+    real_weight_ex2: 25.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 655.0
+    rating:
+    - 2
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '1090112'
+    created_at: 1474841282
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1031
+    weight_ex1: 68.75
+    weight_ex2: 46.875
+    real_weight_ex1: 55.0
+    real_weight_ex2: 37.5
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: false
+    points: 50.0
+    rating:
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '1073844'
+    created_at: 1474583706
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#interval100
+    body_focus: full
+    handle: a998f0a412408fab428a91262cb612be904d53a8
+    technique_week: false
+    hell_week: false
+    repetitions: 2
+    time: 435
+  - starred: true
+    points: 656.0
+    rating:
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '1073824'
+    created_at: 1474583144
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#vali
+    body_focus: full
+    handle: 07e87d161603bad88c84f40d1bbebd1bb5b192c1
+    technique_week: false
+    hell_week: false
+    time: 931
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 625.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '1073773'
+    created_at: 1474582028
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 644
+    weight_ex1: 60.71429
+    weight_ex2: 50.0
+    real_weight_ex1: 42.5
+    real_weight_ex2: 35.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 390.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '1041393'
+    created_at: 1474238038
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 766
+    weight_ex1: 31.25
+    weight_ex2: 25.0
+    real_weight_ex1: 25.0
+    real_weight_ex2: 20.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 546.0
+    rating:
+    - 0
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '1041392'
+    created_at: 1474238037
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 973
+    weight_ex1: 43.75
+    weight_ex2: 37.5
+    real_weight_ex1: 35.0
+    real_weight_ex2: 30.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: false
+    points: 112.5
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1018213'
+    created_at: 1473892476
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#pyramid100
+    body_focus: full
+    handle: 1d38b56e8af43fbb194d23733f9ac73eb855a97b
+    technique_week: false
+    hell_week: false
+    repetitions: 2
+    time: 713
+  - starred: true
+    points: 729.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1018175'
+    created_at: 1473891632
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#borr
+    body_focus: upper
+    handle: fc03303b671fe62f9387b2143f42019d3f930822
+    technique_week: false
+    hell_week: false
+    time: 727
+    repetitions: 1
+    weight_level: 15.0
+  - starred: true
+    points: 702.5
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '1018155'
+    created_at: 1473890818
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc3
+    body_focus: lower
+    handle: ef17d1184daf154481a36235876153a4ff63cdee
+    technique_week: false
+    hell_week: false
+    time: 1060
+    weight_ex1: 53.125
+    weight_ex2: 37.5
+    real_weight_ex1: 42.5
+    real_weight_ex2: 30.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 843.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '1002670'
+    created_at: 1473718180
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc3
+    body_focus: upper
+    handle: 5b61d11bbc6f27c38c434132935ace2acb0060a6
+    technique_week: false
+    hell_week: false
+    time: 1035
+    weight_ex1: 0.0
+    weight_ex2: 0.0
+    real_weight_ex1: 0.0
+    real_weight_ex2: 0.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 546.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '1002616'
+    created_at: 1473716840
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1035
+    weight_ex1: 65.625
+    weight_ex2: 43.75
+    real_weight_ex1: 52.5
+    real_weight_ex2: 35.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '1002511'
+    created_at: 1473715160
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 562.5
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '994976'
+    created_at: 1473632320
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder1500
+    body_focus: full
+    handle: 3a9b73f217ba69053b019c5aab16205835a1abae
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1531
+  - starred: true
+    points: 625.0
+    rating:
+    - 2
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '994939'
+    created_at: 1473630668
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 703
+    weight_ex1: 60.71429
+    weight_ex2: 42.85714
+    real_weight_ex1: 42.5
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 495.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '979923'
+    created_at: 1473373893
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#skadi
+    body_focus: core
+    handle: a31896408adabc897b5725682afdff56cb743d0f
+    technique_week: false
+    hell_week: false
+    time: 1184
+    repetitions: 1
+    weight_level: 0.0
+  - starred: true
+    points: 469.0
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '979871'
+    created_at: 1473372539
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 822
+    weight_ex1: 26.66667
+    weight_ex2: 26.66667
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '979819'
+    created_at: 1473371359
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 582
+    weight_ex1: 64.28571
+    weight_ex2: 42.85714
+    real_weight_ex1: 45.0
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '956115'
+    created_at: 1473027263
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 300.0
+    rating:
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '956104'
+    created_at: 1473026661
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder1000
+    body_focus: full
+    handle: 542e64a07c9e7fd3d10f06150a97a3d790f21db3
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1189
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '956078'
+    created_at: 1473025375
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc2
+    body_focus: lower
+    handle: 8fff7bc35786ab87e07f430e135190bd71434a4d
+    technique_week: false
+    hell_week: false
+    time: 610
+    weight_ex1: 42.85714
+    weight_ex2: 42.85714
+    real_weight_ex1: 30.0
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '956046'
+    created_at: 1473023926
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 500.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '928924'
+    created_at: 1472554736
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#nott
+    body_focus: core
+    handle: d5e3bfd227045e7be0e898d999832937a38eeb52
+    technique_week: false
+    hell_week: false
+    time: 9
+    repetitions: 1
+    weight_level: 0.0
+  - starred: false
+    points: 702.5
+    rating:
+    - 3
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '926603'
+    created_at: 1472509222
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc3
+    body_focus: upper
+    handle: 5b61d11bbc6f27c38c434132935ace2acb0060a6
+    technique_week: false
+    hell_week: false
+    time: 1101
+    weight_ex1: 0.0
+    weight_ex2: 0.0
+    real_weight_ex1: 0.0
+    real_weight_ex2: 0.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 2
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '926534'
+    created_at: 1472507689
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1030
+    weight_ex1: 66.66666
+    weight_ex2: 40.0
+    real_weight_ex1: 50.0
+    real_weight_ex2: 30.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '913859'
+    created_at: 1472250791
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 507.0
+    rating:
+    - 0
+    personal_best: true
+    current_personal_best: false
+    id: '913826'
+    created_at: 1472250072
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#sif
+    body_focus: upper
+    handle: 2fad2d79e314b25c4485f084e39bffb8b7d78c08
+    technique_week: false
+    hell_week: false
+    time: 632
+    repetitions: 2
+    weight_level: 10.0
+  - starred: true
+    points: 750.0
+    rating:
+    - 2
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '913805'
+    created_at: 1472249324
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1071
+    weight_ex1: 63.33333
+    weight_ex2: 40.0
+    real_weight_ex1: 47.5
+    real_weight_ex2: 30.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 187.5
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '903427'
+    created_at: 1472078263
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder500
+    body_focus: full
+    handle: 1246d975cbbcc5ce1abb9f6f930e96e4448366aa
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 582
+  - starred: true
+    points: 787.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '903404'
+    created_at: 1472077601
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#vali
+    body_focus: full
+    handle: 07e87d161603bad88c84f40d1bbebd1bb5b192c1
+    technique_week: false
+    hell_week: false
+    time: 883
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '903365'
+    created_at: 1472076587
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc2
+    body_focus: lower
+    handle: 8fff7bc35786ab87e07f430e135190bd71434a4d
+    technique_week: false
+    hell_week: false
+    time: 631
+    weight_ex1: 35.71429
+    weight_ex2: 35.71429
+    real_weight_ex1: 25.0
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '891610'
+    created_at: 1471904906
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '891571'
+    created_at: 1471904211
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 830
+    weight_ex1: 33.33333
+    weight_ex2: 33.33333
+    real_weight_ex1: 25.0
+    real_weight_ex2: 25.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 2
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '891513'
+    created_at: 1471902908
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1136
+    weight_ex1: 66.66666
+    weight_ex2: 36.66667
+    real_weight_ex1: 50.0
+    real_weight_ex2: 27.5
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '891442'
+    created_at: 1471901281
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 112.5
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '885451'
+    created_at: 1471818771
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#pyramid100
+    body_focus: full
+    handle: 1d38b56e8af43fbb194d23733f9ac73eb855a97b
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 380
+  - starred: true
+    points: 701.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '885438'
+    created_at: 1471818265
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#elli
+    body_focus: full
+    handle: 217bfaa25a26482ebb782f2dd8e7108afda68a72
+    technique_week: false
+    hell_week: false
+    time: 909
+    repetitions: 1
+    weight_level: 15.0
+  - starred: true
+    points: 625.0
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '885407'
+    created_at: 1471817239
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1092
+    weight_ex1: 60.0
+    weight_ex2: 40.0
+    real_weight_ex1: 45.0
+    real_weight_ex2: 30.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '885365'
+    created_at: 1471815478
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 391.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '861446'
+    created_at: 1471386081
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 799
+    weight_ex1: 26.66667
+    weight_ex2: 26.66667
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '861387'
+    created_at: 1471384884
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 1053
+    weight_ex1: 43.33333
+    weight_ex2: 33.33333
+    real_weight_ex1: 32.5
+    real_weight_ex2: 25.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '861322'
+    created_at: 1471383267
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 270.0
+    rating:
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '849793'
+    created_at: 1471213126
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#pyramid300
+    body_focus: full
+    handle: 7d799fec2100f3372b33f7bc09fd79b075f4b742
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1010
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '849771'
+    created_at: 1471212050
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc3
+    body_focus: lower
+    handle: ef17d1184daf154481a36235876153a4ff63cdee
+    technique_week: false
+    hell_week: false
+    time: 586
+    weight_ex1: 50.0
+    weight_ex2: 35.71429
+    real_weight_ex1: 35.0
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '843347'
+    created_at: 1471066137
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 192.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '843334'
+    created_at: 1471065653
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#syn
+    body_focus: core
+    handle: e656e58f7f38774baae3447adc0118ab2df0bacb
+    technique_week: false
+    hell_week: false
+    time: 212
+    repetitions: 1
+    weight_level: 0.0
+  - starred: false
+    points: 562.0
+    rating:
+    - 3
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '843322'
+    created_at: 1471065187
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc3
+    body_focus: upper
+    handle: 5b61d11bbc6f27c38c434132935ace2acb0060a6
+    technique_week: false
+    hell_week: false
+    time: 1153
+    weight_ex1: 0.0
+    weight_ex2: 0.0
+    real_weight_ex1: 0.0
+    real_weight_ex2: 0.0
+    repetitions: 6
+    percent_of_one_rm: 0.8
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '843295'
+    created_at: 1471063612
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1047
+    weight_ex1: 64.28571
+    weight_ex2: 35.71429
+    real_weight_ex1: 45.0
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '843274'
+    created_at: 1471062021
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '832287'
+    created_at: 1470869109
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 562.5
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '832266'
+    created_at: 1470868447
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder1500
+    body_focus: full
+    handle: 3a9b73f217ba69053b019c5aab16205835a1abae
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1546
+  - starred: true
+    points: 625.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '832180'
+    created_at: 1470866826
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 627
+    weight_ex1: 60.71429
+    weight_ex2: 42.85714
+    real_weight_ex1: 42.5
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '832130'
+    created_at: 1470865461
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '819598'
+    created_at: 1470696125
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '819597'
+    created_at: 1470696106
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 253.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '819566'
+    created_at: 1470695310
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#sif
+    body_focus: upper
+    handle: 2fad2d79e314b25c4485f084e39bffb8b7d78c08
+    technique_week: false
+    hell_week: false
+    time: 283
+    repetitions: 1
+    weight_level: 10.0
+  - starred: false
+    points: 547.5
+    rating:
+    - 1
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '819553'
+    created_at: 1470694922
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 899
+    weight_ex1: 32.14286
+    weight_ex2: 32.14286
+    real_weight_ex1: 22.5
+    real_weight_ex2: 22.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '819503'
+    created_at: 1470693478
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc5
+    body_focus: upper
+    handle: fbbddc4426e731a13a6487a93f86d0148d425d69
+    technique_week: false
+    hell_week: false
+    time: 1065
+    weight_ex1: 42.85714
+    weight_ex2: 28.57143
+    real_weight_ex1: 30.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 625.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '813285'
+    created_at: 1470609646
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#interval1000
+    body_focus: full
+    handle: 44bcaa9de8d103c5498e0aa61c173b5369767607
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1755
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '813254'
+    created_at: 1470607780
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 845.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '813246'
+    created_at: 1470607627
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc2
+    body_focus: lower
+    handle: 8fff7bc35786ab87e07f430e135190bd71434a4d
+    technique_week: false
+    hell_week: false
+    time: 1062
+    weight_ex1: 35.71429
+    weight_ex2: 35.71429
+    real_weight_ex1: 25.0
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '795145'
+    created_at: 1470266837
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 192.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '795015'
+    created_at: 1470263603
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#syn
+    body_focus: core
+    handle: e656e58f7f38774baae3447adc0118ab2df0bacb
+    technique_week: false
+    hell_week: false
+    time: 282
+    repetitions: 1
+    weight_level: 0.0
+  - starred: false
+    points: 547.5
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '794994'
+    created_at: 1470263151
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 815
+    weight_ex1: 32.14286
+    weight_ex2: 32.14286
+    real_weight_ex1: 22.5
+    real_weight_ex2: 22.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '794942'
+    created_at: 1470261700
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 547.5
+    rating:
+    - 2
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '794940'
+    created_at: 1470261679
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 569
+    weight_ex1: 64.28571
+    weight_ex2: 35.71429
+    real_weight_ex1: 45.0
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '788662'
+    created_at: 1470176872
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 609.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '788632'
+    created_at: 1470176075
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#vor
+    body_focus: upper
+    handle: 8e4fcaa39686fdc517cf8f84a4213f7a9de7e9dd
+    technique_week: false
+    hell_week: false
+    time: 965
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '788580'
+    created_at: 1470174841
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc3
+    body_focus: lower
+    handle: ef17d1184daf154481a36235876153a4ff63cdee
+    technique_week: false
+    hell_week: false
+    time: 589
+    weight_ex1: 46.42857
+    weight_ex2: 28.57143
+    real_weight_ex1: 32.5
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '768504'
+    created_at: 1469861021
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 391.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '768474'
+    created_at: 1469859908
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 867
+    weight_ex1: 28.57143
+    weight_ex2: 28.57143
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '768442'
+    created_at: 1469858503
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 572
+    weight_ex1: 60.71429
+    weight_ex2: 35.71429
+    real_weight_ex1: 42.5
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '768418'
+    created_at: 1469857308
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 337.5
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '750339'
+    created_at: 1469573242
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#pyramid300
+    body_focus: full
+    handle: 7d799fec2100f3372b33f7bc09fd79b075f4b742
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 962
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '750278'
+    created_at: 1469571862
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 625.0
+    rating:
+    - 2
+    - 2
+    personal_best: false
+    current_personal_best: false
+    id: '750238'
+    created_at: 1469571113
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1335
+    weight_ex1: 60.71429
+    weight_ex2: 42.85714
+    real_weight_ex1: 42.5
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '750133'
+    created_at: 1469568953
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '743711'
+    created_at: 1469486085
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 253.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '743683'
+    created_at: 1469485583
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#sif
+    body_focus: upper
+    handle: 2fad2d79e314b25c4485f084e39bffb8b7d78c08
+    technique_week: false
+    hell_week: false
+    time: 442
+    repetitions: 1
+    weight_level: 10.0
+  - starred: false
+    points: 563.0
+    rating:
+    - 3
+    - 3
+    personal_best: true
+    current_personal_best: true
+    id: '743653'
+    created_at: 1469485073
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc3
+    body_focus: upper
+    handle: 5b61d11bbc6f27c38c434132935ace2acb0060a6
+    technique_week: false
+    hell_week: false
+    time: 1097
+    weight_ex1: 0.0
+    weight_ex2: 0.0
+    real_weight_ex1: 0.0
+    real_weight_ex2: 0.0
+    repetitions: 8
+    percent_of_one_rm: 0.75
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '743569'
+    created_at: 1469483642
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1104
+    weight_ex1: 57.14286
+    weight_ex2: 35.71429
+    real_weight_ex1: 40.0
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '743501'
+    created_at: 1469482060
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '733911'
+    created_at: 1469341542
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 62.5
+    rating:
+    - 0
+    personal_best: true
+    current_personal_best: true
+    id: '733892'
+    created_at: 1469340622
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#interval100
+    body_focus: full
+    handle: a998f0a412408fab428a91262cb612be904d53a8
+    technique_week: false
+    hell_week: false
+    repetitions: 2
+    time: 425
+  - starred: true
+    points: 655.0
+    rating:
+    - 2
+    personal_best: true
+    current_personal_best: true
+    id: '733881'
+    created_at: 1469340081
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#sol
+    body_focus: lower
+    handle: fbb93bb966c801b3a72230e8f3b752b62ef22929
+    technique_week: false
+    hell_week: false
+    time: 1154
+    repetitions: 1
+    weight_level: 15.0
+  - starred: true
+    points: 704.0
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '733854'
+    created_at: 1469338594
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc3
+    body_focus: lower
+    handle: ef17d1184daf154481a36235876153a4ff63cdee
+    technique_week: false
+    hell_week: false
+    time: 582
+    weight_ex1: 42.85714
+    weight_ex2: 21.42857
+    real_weight_ex1: 30.0
+    real_weight_ex2: 15.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '733829'
+    created_at: 1469337186
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '730305'
+    created_at: 1469260884
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '730257'
+    created_at: 1469260060
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 472
+    weight_ex1: 28.57143
+    weight_ex2: 28.57143
+    real_weight_ex1: 20.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 547.5
+    rating:
+    - 1
+    - 1
+    personal_best: false
+    current_personal_best: false
+    id: '730216'
+    created_at: 1469259025
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 588
+    weight_ex1: 53.57143
+    weight_ex2: 35.71429
+    real_weight_ex1: 37.5
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '730154'
+    created_at: 1469257850
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 375.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '657507'
+    created_at: 1468208150
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#ladder1000
+    body_focus: full
+    handle: 542e64a07c9e7fd3d10f06150a97a3d790f21db3
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 333
+  - starred: true
+    points: 625.0
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '654990'
+    created_at: 1468151974
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 614
+    weight_ex1: 57.14286
+    weight_ex2: 42.85714
+    real_weight_ex1: 40.0
+    real_weight_ex2: 30.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '654868'
+    created_at: 1468150558
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '653674'
+    created_at: 1468131019
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 469.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '653672'
+    created_at: 1468130936
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 750
+    weight_ex1: 25.0
+    weight_ex2: 25.0
+    real_weight_ex1: 17.5
+    real_weight_ex2: 17.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 657.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '653663'
+    created_at: 1468130009
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 965
+    weight_ex1: 50.0
+    weight_ex2: 28.57143
+    real_weight_ex1: 35.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '653649'
+    created_at: 1468128254
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 561.0
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: true
+    id: '630601'
+    created_at: 1467757646
+    type: barbell_workout
+    name_href: https://api.freeletics.com/gym/static/texts#kvasir
+    body_focus: upper
+    handle: 73e9531cafa4927934fd4108bc3d33e201986ba5
+    technique_week: false
+    hell_week: false
+    time: 851
+    repetitions: 1
+    weight_level: 10.0
+  - starred: true
+    points: 704.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '630551'
+    created_at: 1467756558
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc2
+    body_focus: lower
+    handle: 8fff7bc35786ab87e07f430e135190bd71434a4d
+    technique_week: false
+    hell_week: false
+    time: 1072
+    weight_ex1: 35.71429
+    weight_ex2: 35.71429
+    real_weight_ex1: 25.0
+    real_weight_ex2: 25.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '630487'
+    created_at: 1467754916
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '624118'
+    created_at: 1467671047
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: true
+    points: 547.5
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '624103'
+    created_at: 1467670642
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc2
+    body_focus: upper
+    handle: 559581ca11c546601bc3cd2300a5139489998875
+    technique_week: false
+    hell_week: false
+    time: 774
+    weight_ex1: 21.42857
+    weight_ex2: 21.42857
+    real_weight_ex1: 15.0
+    real_weight_ex2: 15.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: true
+    points: 657.0
+    rating:
+    - 1
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '624044'
+    created_at: 1467669448
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 1018
+    weight_ex1: 46.42857
+    weight_ex2: 28.57143
+    real_weight_ex1: 32.5
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '623995'
+    created_at: 1467667983
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 337.5
+    rating:
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '617703'
+    created_at: 1467584589
+    type: machine_workout
+    name_href: https://api.freeletics.com/gym/static/texts#pyramid300
+    body_focus: full
+    handle: 7d799fec2100f3372b33f7bc09fd79b075f4b742
+    technique_week: false
+    hell_week: false
+    repetitions: 1
+    time: 1059
+  - starred: true
+    points: 625.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '617672'
+    created_at: 1467583434
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#lbc1
+    body_focus: lower
+    handle: c8d4b35369fbe2dd19c3162db3f098fab0135142
+    technique_week: false
+    hell_week: false
+    time: 1064
+    weight_ex1: 42.85714
+    weight_ex2: 28.57143
+    real_weight_ex1: 30.0
+    real_weight_ex2: 20.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 3
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '617630'
+    created_at: 1467581544
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '604167'
+    created_at: 1467325243
+    type: warmup_cooldown
+    body_focus: 
+    handle: efe9e6ce70bca6eb264442c0bc405c788db4d932
+    technique_week: false
+    hell_week: false
+  - starred: false
+    points: 391.0
+    rating:
+    - 2
+    - 2
+    personal_best: true
+    current_personal_best: false
+    id: '604152'
+    created_at: 1467324753
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc4
+    body_focus: upper
+    handle: 2b0005fb5b06071d2769a564c0b160876675e13c
+    technique_week: false
+    hell_week: false
+    time: 792
+    weight_ex1: 21.42857
+    weight_ex2: 21.42857
+    real_weight_ex1: 15.0
+    real_weight_ex2: 15.0
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: true
+    points: 657.0
+    rating:
+    - 1
+    - 1
+    personal_best: true
+    current_personal_best: false
+    id: '604119'
+    created_at: 1467323619
+    type: barbell_couplet
+    name_href: https://api.freeletics.com/gym/static/texts#ubc1
+    body_focus: upper
+    handle: f0f5246dffbd710c0339f33131c5fd83fd167cff
+    technique_week: false
+    hell_week: false
+    time: 964
+    weight_ex1: 42.85714
+    weight_ex2: 25.0
+    real_weight_ex1: 30.0
+    real_weight_ex2: 17.5
+    repetitions: 10
+    percent_of_one_rm: 0.7
+    work_sets: 5
+  - starred: false
+    points: 
+    rating: []
+    personal_best: false
+    current_personal_best: false
+    id: '597855'
+    created_at: 1467236749
+    type: warmup_cooldown
+    body_focus: 
+    handle: ab221b425228c638acc7241c95f780a3105e84e9
+    technique_week: false
+    hell_week: false

@@ -684,7 +684,7 @@ def Handling_Missing_Data():
     # Or a back-fill:
     print(data.fillna(method='bfill'))
 
-    # For DataFrames, the options are similar, but we can also specifyu an axis along
+    # For DataFrames, the options are similar, but we can also specify an axis along
     # which the fills take place:
     print(df)
 
@@ -692,7 +692,70 @@ def Handling_Missing_Data():
     print(df.fillna(method='ffill', axis=1))
 
 def Hierarchical_Indexing():
-    print('Implement!')
+    # A common pattern in practice for handling three-dimensional and four-dimensional
+    # data is to make use of hierarchical indexing (also known as multi-indexing) to
+    # incorporate multiple index levels within a single index.
+
+    # A MULTIPLY INDEXED SERIES
+
+    # Let's start by considering how we  might represent two-dimensional data within a
+    # one-dimensional Series.
+
+    # The bad way
+
+    index = [('California', 2000), ('California', 2010),
+             ('New York', 2000), ('New York', 2010),
+             ('Texas', 2000), ('Texas', 2010)]
+    pop = [33871648, 37253956,
+           18976457, 19378102,
+           20851820, 25145561]
+    population = pd.Series(pop, index=index)
+    print(population)
+
+    # With this indexing scheme, you can straightforwardly index or slice the series
+    # based on this multiple index:
+    print(population[('California', 2010):('Texas', 2000)])
+
+    # But if you need to select all values from 2010, you'll need to do some messy
+    # munging to make it happen:
+    print(population[[i for i in population.index if i[1] == 2010]])
+    # This is not clean or efficient
+
+    # The better way: Pandas MultiIndex
+
+    # Fortunately, Pandas provides a better way. Our tuple-based indexing is
+    # essentially a rudimentary multi-index, and the Pandas MultiIndex type
+    # gives us the type of operations we wish to have.
+    index = pd.MultiIndex.from_tuples(index)
+    print(index)
+
+    # If we reindex our series with this MultiIndex, we see the hierarchical
+    # representation of the data:
+    pop = population.reindex(index)
+    print(pop)
+
+    # Now to access all data for which the second index is 2010, we can simply
+    # use the Pandas slicing notation:
+    print(pop[:, 2010])
+
+    # MultiIndex as extra dimension
+
+    # You might have noticed something else here: we could easily have stored the
+    # the same data using a simple DataFrame with index and column labels.
+    # The unstack() method will quickly convert a multiply-indexed Series into a
+    # conventionally indexed DataFrame:
+    pop_df = pop.unstack()
+    print(pop_df)
+
+    # The stack() method provides the opposite operation:
+    print(pop_df.stack())
+
+    # You might wonder why would we bother with hierarchical indexing. The reason is
+    # simple: just as we were able to use multi-indexing to represent two-dimensional
+    # data within a one-dimensional Series, we can also use it to represent data of
+    # three or more dimensions in a Series or DataFrame.
+
+    
 
 if __name__ == "__main__":
     # Introducing_Pandas_Objects()
