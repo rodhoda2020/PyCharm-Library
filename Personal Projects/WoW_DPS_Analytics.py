@@ -3,18 +3,9 @@ import numpy as np
 import tkinter as tk
 from tkinter import filedialog
 
-def Cleaning_Data():
-
-    root = tk.Tk()
-    root.withdraw()
-
-    file_path = filedialog.askopenfilename()
-
+def Cleaning_Data(file_path):
     with pd.option_context('display.max_rows', None, 'display.max_columns', None):
         df = pd.read_csv(file_path)
-        # df = pd.read_csv(r'C:\Users\Rod\PycharmProjects\PyCharm-Library\Personal Projects\Warcraft Logs - Combat Analysis for Warcraft.csv')
-
-        # print(df)
 
         raw_damage_amount = df['Amount']
         # print(raw_damage_amount)
@@ -70,11 +61,19 @@ def Cleaning_Data():
 
         print(df)
 
-        # # For percent summation
-        # # Used to see if the total percent adds to 100 (or really close to it)
-        # damage_total_percent = df['Damage (Percent)']
-        # percent = pd.Series(damage_total_percent)
-        # print(sum(map(float, list(percent))))
+        # For percent summation
+        # Used to see if the total percent adds to 100 (or really close to it)
+        damage_total_percent = df['Damage (Percent)']
+        percent = pd.Series(damage_total_percent)
+        print("The total percentage shown by the DataFrame: {}".format(sum(map(float, list(percent)))))
+
+def pie_chart(file_path):
+    print("Implement!")
+
 
 if __name__ == '__main__':
-    print(Cleaning_Data())
+    root = tk.Tk()
+    root.withdraw()
+
+    file_path = filedialog.askopenfilename()
+    Cleaning_Data(file_path)
