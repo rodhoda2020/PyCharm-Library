@@ -2,8 +2,11 @@ import pandas as pd
 import numpy as np
 import tkinter as tk
 from tkinter import filedialog
+import matplotlib
 
-def Cleaning_Data(file_path):
+
+
+def cleaning_data(file_path):
     with pd.option_context('display.max_rows', None, 'display.max_columns', None):
         df = pd.read_csv(file_path)
 
@@ -68,12 +71,17 @@ def Cleaning_Data(file_path):
         print("The total percentage shown by the DataFrame: {}".format(sum(map(float, list(percent)))))
 
 def pie_chart(file_path):
-    print("Implement!")
+    df = pd.read_csv(file_path)
 
 
-if __name__ == '__main__':
+
+def main():
     root = tk.Tk()
     root.withdraw()
 
     file_path = filedialog.askopenfilename()
-    Cleaning_Data(file_path)
+    cleaning_data(file_path)
+    pie_chart(file_path)
+
+if __name__ == '__main__':
+    main()
