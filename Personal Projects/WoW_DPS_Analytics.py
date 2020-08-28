@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import tkinter as tk
 from tkinter import filedialog
-import matplotlib
+import matplotlib.pyplot as plt
 
 
 
@@ -62,26 +62,39 @@ def cleaning_data(file_path):
         # was too. We reset the index value to start from 0 again.
         df = df.reset_index()
 
-        print(df)
+        # print(df)
 
         # For percent summation
         # Used to see if the total percent adds to 100 (or really close to it)
         damage_total_percent = df['Damage (Percent)']
         percent = pd.Series(damage_total_percent)
-        print("The total percentage shown by the DataFrame: {}".format(sum(map(float, list(percent)))))
+        # print("The total percentage shown by the DataFrame: {}".format(sum(map(float, list(percent)))))
 
-def pie_chart(file_path):
-    df = pd.read_csv(file_path)
+        return df
 
+def pie_chart(df):
 
+    # The labels for the pie chart
+    labels = pd.Series(df['Name'])
+
+    # The damage values that will be changed to percentages
+    dmg_values = (pd.Series(df['Damage (Whole value)']))
+    dmg_percent = (pd.Series(df['Damage (Percent)']))
+
+    plt.pie(dmg_values, labels=labels, autopct='%1.1f%%')
+    plt.title('Percent of Contribution to Overall Damage')
+    plt.axis('equal')
+    return plt.show()
 
 def main():
     root = tk.Tk()
     root.withdraw()
 
     file_path = filedialog.askopenfilename()
-    cleaning_data(file_path)
-    pie_chart(file_path)
+    with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+        print(cleaning_data(file_path).head())
+    pie_chart(cleaning_data(file_path))
+
 
 if __name__ == '__main__':
     main()
