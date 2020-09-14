@@ -1,8 +1,9 @@
 from typing import List
 
 
-def list_avg(sequence: List) -> float: # This will tell python that sequence should be a list
-                                       # and should return a float
+
+def list_avg(sequence: List) -> float:  # This will tell python that sequence should be a list
+                                        # and should return a float
     return sum(sequence) / len(sequence)
 
 
