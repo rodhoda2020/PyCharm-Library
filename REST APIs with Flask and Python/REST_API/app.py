@@ -9,7 +9,8 @@ app = Flask(__name__)
 # What requests it is going to understand.
 # There are a few, but we will use a just one
 
-# This is a decorator
-# Note: a decorator is a callable object that takes a function as its input parameter
-# @app.route()
+@app.route('/') # The / indicates the 'home' page
+def home():
+    return 'Hello, World!'
 
+app.run(port=5000)

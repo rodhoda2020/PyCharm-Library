@@ -1,0 +1,5 @@
+POST:    Create
+GET:     Receive
+PUT:     Update/Replace
+DELETE:  Delete
+PATCH:   Update/Modify
