@@ -8,11 +8,11 @@ users = [
 username_mapping = {u.username: u for u in users}
 userid_mapping = {u.id: u for u in users}
 
-userid_mapping = {1: {
-        'id': 1,
-        'username': 'bob',
-        'password': 'asdf'
-}}
+# userid_mapping = {1: {
+#         'id': 1,
+#         'username': 'bob',
+#         'password': 'asdf'
+# }}
 
 # We would use the mapping variables to find users either by their name or their ID.
 # This allows us not to iterate over the list everytime
