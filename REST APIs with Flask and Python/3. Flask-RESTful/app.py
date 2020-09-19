@@ -38,6 +38,7 @@ class Item(Resource):
                         required=True,  # To make sure no request can come through without price
                         help="This field cannot be left blank"
                         )
+
     @jwt_required()
     def get(self, name):
         # This is going to take self and the name of the item
