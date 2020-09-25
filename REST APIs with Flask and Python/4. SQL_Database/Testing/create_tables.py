@@ -1,22 +1,15 @@
-from flask import Flask
-from flask_restful import Resource, Api, reqparse
-from flask_jwt import jwt_required, JWT
+import sqlite3
 
-app = Flask(__name__)
-app.secret_key = 'jose'
-api = Api(app)
+connection = sqlite3.connect('data.db')
+cursor = connection.cursor()
 
-jwt = JWT(app, )
+create_table = "CREATE TABLE IF NOT EXISTS users (ID INTEGER PRIMARY KEY, username text, password text)"
 
-items = []
+cursor.execute(create_table)
 
-class Item(Resource):
-    parser = reqparse.RequestParser()
-    parser.add_argument('price', type=str, required=True,
-                        help='This cannot be left blank.')
+create_table = "CREATE TABLE IF NOT EXISTS items (name text, price real)"
 
-    def get(self, name):
-        item = next(filter(lambda x: x['name'] == name, items), None)
-        return {'item': item}, 200 if item else 404
+cursor.execute(create_table)
 
-    
+connection.commit()
+connection.close()
