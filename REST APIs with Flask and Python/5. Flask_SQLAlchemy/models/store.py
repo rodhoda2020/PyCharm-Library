@@ -3,7 +3,7 @@ from db import db
 
 # This will create a mapping between the database and
 # and the objects in this class
-class ItemModel(db.Model):
+class StoreModel(db.Model):
     __tablename__ = 'items'
 
     # Even though we do not have an ID for items, we are
