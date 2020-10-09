@@ -16,11 +16,16 @@ class ItemModel(db.Model):
     # The precision indicates two decimal places
     price = db.Column(db.Float(precision=2))
 
+
+    store_id = db.Column(db.Integer, db.ForeignKey('stores.id'))
+    store = db.relationship('StoreModel')
+
     # These properties will be saved into the database
 
-    def __init__(self, name, price):
+    def __init__(self, name, price, store_id):
         self.name = name
         self.price = price
+        self.store_id = store_id
 
     def json(self):
         return {'name': self.name, 'price': self.price}

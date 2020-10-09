@@ -4,7 +4,7 @@ from db import db
 # This will create a mapping between the database and
 # and the objects in this class
 class StoreModel(db.Model):
-    __tablename__ = 'items'
+    __tablename__ = 'stores'
 
     # Even though we do not have an ID for items, we are
     # going to start using one since they are very useful
@@ -13,17 +13,17 @@ class StoreModel(db.Model):
     # The 80 will limit the size of the username
     name = db.Column(db.String(80))
 
-    # The precision indicates two decimal places
-    price = db.Column(db.Float(precision=2))
+    # This will create a relationship with Item Model
+    # This will be a list since there could be multiple items
+    items = db.relationship('ItemModel', lazy='dynamic')
 
     # These properties will be saved into the database
 
-    def __init__(self, name, price):
+    def __init__(self, name):
         self.name = name
-        self.price = price
 
     def json(self):
-        return {'name': self.name, 'price': self.price}
+        return {'name': self.name, 'items': [item.json() for item in self.items.all()]}
 
     @classmethod
     def find_by_name(cls, name):

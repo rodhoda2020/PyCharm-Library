@@ -6,6 +6,7 @@ from resources.item import Item, Items
 from security import authenticate, identity
 from resources.user  import UserRegister
 from db import db
+from resources.store import Store, StoreList
 
 
 
@@ -16,6 +17,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'jose'
 api = Api(app)
 
+
 @app.before_first_request
 # This is the decorator that will run the method below it
 # before the first request.
@@ -24,9 +26,10 @@ def create_tables():
 
 jwt = JWT(app, authenticate, identity)
 
-
+api.add_resource(Store, '/store/<string:name>')
 api.add_resource(Item, '/item/<string:name>')
 api.add_resource(Items, '/items')
+api.add_resource(StoreList, '/stores')
 
 api.add_resource(UserRegister, '/register')
 
