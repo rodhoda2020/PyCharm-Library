@@ -23,7 +23,7 @@ df.drop(to_drop, inplace=True, axis=1)
 
 print(df.head())
 
-# A Calendar heatmap that shows the number of purchases made in a single day based on the color of the block (day)
+# A Calendar heat map that shows the number of purchases made in a single day based on the color of the block (day)
 
 
 # What were the purchase price ranges?
