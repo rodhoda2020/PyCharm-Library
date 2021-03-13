@@ -17,8 +17,8 @@ class Game(object):
 
     @staticmethod
     def random_generator():
-        answer = random.randint(int(s_range), int(e_range))
-        print('The answer is {}'.format(Game.answer))
+        Game.answer = random.randint(int(s_range), int(e_range))
+        # print('The answer is {}'.format(Game.answer))
         return Game.answer
 
     @staticmethod
@@ -26,29 +26,24 @@ class Game(object):
         Game.current_score = s
         Game.current_score += (s_range - e_range)
 
-
     @staticmethod
     def guess_game():
-        if Game.guess == Game.answer:
-            print("Hurray, you guessed the correct number!")
+        if Game.guess < Game.answer:
+            print("Higher")
+            return
         elif Game.guess > Game.answer:
-            print("It's less than that.")
+            print("Lower")
+            return
         else:
-            print("It's more than that.")
+            print("Congratulations! You guessed the right number after {} tries.".format(str(Game.count)))
+            Game.win = True
 
     def game_system(self):
-        Game.guess = int(input('The number is between {}-{}. \nGuess the number: '.format(s_range, e_range)))
-        # print(guess)
-        while Game.win == False:
-            if Game.guess == Game.answer:
-                print("Congratulations! You guessed the right number after {} tries.".format(Game.count))
-                Game.Win = True
-            else:
-                self.guess_game()
-                Game.count += 1
-
-
-
+        while not Game.win:
+            Game.guess = int(input('The number is between {}-{}. \nGuess the number: '.format(s_range, e_range)))
+            Game.count += 1
+            print(Game.win)
+            self.guess_game()
 
 
 if __name__ == '__main__':
@@ -63,4 +58,4 @@ if __name__ == '__main__':
 
     g = Game(s_range, e_range)
     g.random_generator()
-    g.guess_game()
+    g.game_system()
